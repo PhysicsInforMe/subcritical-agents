@@ -1,0 +1,14 @@
+# The five NEW wordings (configs/phase_a_formulations_new.yaml) with the two
+# labels named in the opposite order in the sentence that names them, and
+# nothing else changed (label tokens, + label, JSON key, slots as before).
+# Generated on 2026-09-30 for the correction of the order-of-mention share
+# (the results notes (not included), row of 2026-09-30): wordings 5, 7 and 9 named B
+# before A and here name A first; wordings 6 and 8 named A first and here
+# name B first. Paired against *_allnw_N8, every wording has both orders.
+formats: [comma, lines]
+wordings:
+  - "Reply as JSON with the single key \"state\". You are Player 1 in a game where every player is in state {a} or in state {b}. You can see {n_peers} other players and their states are: {peers}.{memory} Decide the state you take now."
+  - "Return a JSON object with one key, \"state\", giving the state of Player 1. The game has two states, {b} and {a}. {n_peers} other players are visible to Player 1 and they hold: {peers}.{memory} Report the state of Player 1 now."
+  - "There are two possible states, {a} and {b}. Player 1 observes {n_peers} players whose states are: {peers}.{memory} Which state should Player 1 hold now? Answer as JSON with the key \"state\"."
+  - "You are Player 1, one of many players, and each player holds state {b} or state {a}. Right now you see {n_peers} of the others and their states are: {peers}.{memory} Give your state now as JSON with the single key \"state\"."
+  - "Output only a JSON object with the key \"state\". In this round the players hold either {a} or {b}. Player 1 sees {n_peers} other players, in the states: {peers}.{memory} The state Player 1 is in now goes in the JSON."

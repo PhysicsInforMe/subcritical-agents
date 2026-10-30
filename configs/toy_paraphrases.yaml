@@ -1,0 +1,13 @@
+# Toy test on prompt formulations (design notes §14.1 B15, §7 toy-first rule).
+# Ten formulations = five wordings x two list formats. Same model, poorest
+# channel, all 32 neighbour configurations, both flip sectors, logits only.
+model: {name: Qwen/Qwen3-0.6B, revision: null}
+temperature: 1.0
+n_boot: 300
+formats: [comma, lines]
+wordings:
+  - "Player 1 is one of several players. Each player holds a state, either {a} or {b}. The neighbours of Player 1 currently hold the states: {states}. Answer with the state Player 1 should hold now, as JSON with a single key \"state\"."
+  - "In this game every player has a state, {a} or {b}. Player 1 can see the states of its neighbours: {states}. Reply with the state that Player 1 takes now, in JSON with the key \"state\"."
+  - "Player 1 takes part in a game where each participant holds one of two states, {a} or {b}. The states of the neighbours of Player 1 are: {states}. Give the state Player 1 should adopt now as a JSON object with the single key \"state\"."
+  - "Each player in the game is in state {a} or in state {b}. Player 1 observes these neighbour states: {states}. State Player 1 should now be in, as JSON with one key called \"state\"."
+  - "Consider Player 1 among a group of players whose state is either {a} or {b}. The current states of the neighbours of Player 1 read: {states}. Output the state Player 1 holds now as JSON containing only the key \"state\"."

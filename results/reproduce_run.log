@@ -1,0 +1,23 @@
+scripts/phase_a_aggregate.py: ok | results/phase_a/aggregate.json: identical outside the manifest
+scripts/phase_a_covariates.py: ok | results/phase_a/covariates.json: identical outside the manifest
+scripts/phase_a_orderings_check.py --exposures 7,10,30 --models qwen0.6b,qwen1.7b --n-boot 300: ok | results/phase_a/orderings_check.json: identical outside the manifest
+scripts/phase_a_orderings_subset.py --exposures 10,30 --models qwen0.6b,qwen1.7b --n-subsets 200 --subset-size 8: ok | results/phase_a/orderings_subset.json: identical outside the manifest
+scripts/phase_a_meanfield_stability.py --models qwen0.6b,qwen1.7b --T 1.0: ok | results/phase_a/meanfield_stability.json: identical outside the manifest
+scripts/phase_a_format_check.py --models qwen0.6b,qwen1.7b,smollm1.7b --e-ref 7: ok | results/phase_a/format_check.json: identical outside the manifest
+scripts/phase_a_exposure_shape.py --models qwen0.6b,qwen1.7b --e-ref 7: ok | results/phase_a/exposure_shape.json: identical outside the manifest
+scripts/phase_a_memory_curve.py --models qwen0.6b,qwen1.7b --exposure 4: ok | results/phase_a/memory_curve.json: identical outside the manifest
+scripts/phase_a_dF0_classes.py --models qwen0.6b,qwen1.7b --n-boot 300 --out results/phase_a/dF0_classes.json: ok | results/phase_a/dF0_classes.json: identical outside the manifest
+scripts/phase_a_dF0_classes.py --models qwen1.7b --n-boot 300 --results results/phase_a_fp32check --out results/phase_a/dF0_classes_fp32.json: ok | results/phase_a/dF0_classes_fp32.json: identical outside the manifest
+scripts/phase_a_h10_test.py --models qwen0.6b,qwen1.7b,smollm1.7b: ok | results/phase_a/h10_test.json: identical outside the manifest
+scripts/phase_a_second_family.py --models smollm1.7b,qwen0.6b,qwen1.7b --e-ref 7: ok | results/phase_a/second_family.json: identical outside the manifest
+scripts/phase_a_saturation_fit.py --models qwen0.6b,qwen1.7b: ok | results/phase_a/saturation_fit.json: identical outside the manifest
+scripts/phase_a_fp32_recheck.py --model qwen1.7b --exposures 10,30 --n-boot 300 --bf16 results/phase_a --fp32 results/phase_a_fp32check: ok | results/phase_a/fp32_recheck.json: identical outside the manifest
+scripts/review_r1_checks.py: ok | results/phase_a/review_r1.json: identical outside the manifest
+scripts/review_r2_checks.py: ok | results/phase_a/review_r2.json: identical outside the manifest | paper/appendix_prompts.md: identical
+scripts/review_r2_runs_analysis.py: ok | results/phase_a/review_r2_runs.json: identical outside the manifest
+scripts/review_r3_checks.py: ok | results/phase_a/review_r3.json: identical outside the manifest
+scripts/review_r3_newwordings.py: ok | results/phase_a/review_r3_newwordings.json: identical outside the manifest
+scripts/paper_numbers.py: ok | paper/numbers.json: identical outside the manifest | paper/numbers.md: identical
+scripts/paper_tables.py: ok | paper/tables.md: identical | paper/arxiv/tab_exposure.tex: identical | paper/arxiv/tab_formulations.tex: identical
+scripts/paper_figures.py: ok
+=== done 

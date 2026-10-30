@@ -1,0 +1,92 @@
+=== new wordings queue start 23/09/2026 23:09:12,19 
+cell A_qwen0.6b_list_k0_e2_Tan_f0_allnw_N8
+  A_qwen0.6b_list_k0_e2_Tan_f0_allnw_N8 w0 comma: 4 passes, 3 s
+  A_qwen0.6b_list_k0_e2_Tan_f0_allnw_N8 w0 lines: 4 passes, 7 s
+  A_qwen0.6b_list_k0_e2_Tan_f0_allnw_N8 w1 comma: 4 passes, 10 s
+  A_qwen0.6b_list_k0_e2_Tan_f0_allnw_N8 w1 lines: 4 passes, 13 s
+  A_qwen0.6b_list_k0_e2_Tan_f0_allnw_N8 w2 comma: 4 passes, 16 s
+  A_qwen0.6b_list_k0_e2_Tan_f0_allnw_N8 w2 lines: 4 passes, 20 s
+  A_qwen0.6b_list_k0_e2_Tan_f0_allnw_N8 w3 comma: 4 passes, 23 s
+  A_qwen0.6b_list_k0_e2_Tan_f0_allnw_N8 w3 lines: 4 passes, 26 s
+  A_qwen0.6b_list_k0_e2_Tan_f0_allnw_N8 w4 comma: 4 passes, 29 s
+  A_qwen0.6b_list_k0_e2_Tan_f0_allnw_N8 w4 lines: 4 passes, 33 s
+cell A_qwen0.6b_list_k0_e4_Tan_f0_allnw_N8
+  A_qwen0.6b_list_k0_e4_Tan_f0_allnw_N8 w0 comma: 16 passes, 13 s
+  A_qwen0.6b_list_k0_e4_Tan_f0_allnw_N8 w0 lines: 16 passes, 28 s
+  A_qwen0.6b_list_k0_e4_Tan_f0_allnw_N8 w1 comma: 16 passes, 41 s
+  A_qwen0.6b_list_k0_e4_Tan_f0_allnw_N8 w1 lines: 16 passes, 56 s
+  A_qwen0.6b_list_k0_e4_Tan_f0_allnw_N8 w2 comma: 16 passes, 68 s
+  A_qwen0.6b_list_k0_e4_Tan_f0_allnw_N8 w2 lines: 16 passes, 82 s
+  A_qwen0.6b_list_k0_e4_Tan_f0_allnw_N8 w3 comma: 16 passes, 95 s
+  A_qwen0.6b_list_k0_e4_Tan_f0_allnw_N8 w3 lines: 16 passes, 109 s
+  A_qwen0.6b_list_k0_e4_Tan_f0_allnw_N8 w4 comma: 16 passes, 122 s
+  A_qwen0.6b_list_k0_e4_Tan_f0_allnw_N8 w4 lines: 16 passes, 137 s
+cell A_qwen0.6b_list_k0_e7_Tan_f0_allnw_N8
+  A_qwen0.6b_list_k0_e7_Tan_f0_allnw_N8 w0 comma: 48 passes, 42 s
+  A_qwen0.6b_list_k0_e7_Tan_f0_allnw_N8 w0 lines: 48 passes, 87 s
+  A_qwen0.6b_list_k0_e7_Tan_f0_allnw_N8 w1 comma: 48 passes, 129 s
+  A_qwen0.6b_list_k0_e7_Tan_f0_allnw_N8 w1 lines: 48 passes, 174 s
+  A_qwen0.6b_list_k0_e7_Tan_f0_allnw_N8 w2 comma: 48 passes, 214 s
+  A_qwen0.6b_list_k0_e7_Tan_f0_allnw_N8 w2 lines: 48 passes, 256 s
+  A_qwen0.6b_list_k0_e7_Tan_f0_allnw_N8 w3 comma: 48 passes, 297 s
+  A_qwen0.6b_list_k0_e7_Tan_f0_allnw_N8 w3 lines: 48 passes, 343 s
+  A_qwen0.6b_list_k0_e7_Tan_f0_allnw_N8 w4 comma: 48 passes, 384 s
+  A_qwen0.6b_list_k0_e7_Tan_f0_allnw_N8 w4 lines: 48 passes, 429 s
+cell A_qwen0.6b_list_k3_e4_Tan_f0_allnw_N8
+  A_qwen0.6b_list_k3_e4_Tan_f0_allnw_N8 w0 comma: 128 passes, 61 s
+  A_qwen0.6b_list_k3_e4_Tan_f0_allnw_N8 w0 lines: 128 passes, 124 s
+  A_qwen0.6b_list_k3_e4_Tan_f0_allnw_N8 w1 comma: 128 passes, 186 s
+  A_qwen0.6b_list_k3_e4_Tan_f0_allnw_N8 w1 lines: 128 passes, 251 s
+  A_qwen0.6b_list_k3_e4_Tan_f0_allnw_N8 w2 comma: 128 passes, 308 s
+  A_qwen0.6b_list_k3_e4_Tan_f0_allnw_N8 w2 lines: 128 passes, 369 s
+  A_qwen0.6b_list_k3_e4_Tan_f0_allnw_N8 w3 comma: 128 passes, 429 s
+  A_qwen0.6b_list_k3_e4_Tan_f0_allnw_N8 w3 lines: 128 passes, 492 s
+  A_qwen0.6b_list_k3_e4_Tan_f0_allnw_N8 w4 comma: 128 passes, 553 s
+  A_qwen0.6b_list_k3_e4_Tan_f0_allnw_N8 w4 lines: 128 passes, 616 s
+=== 0.6B done 23:29:38,92 
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards: 100%|##########| 2/2 [00:00<00:00, 24.53it/s]
+cell A_qwen1.7b_list_k0_e2_Tan_f0_allnw_N8
+  A_qwen1.7b_list_k0_e2_Tan_f0_allnw_N8 w0 comma: 4 passes, 11 s
+  A_qwen1.7b_list_k0_e2_Tan_f0_allnw_N8 w0 lines: 4 passes, 14 s
+  A_qwen1.7b_list_k0_e2_Tan_f0_allnw_N8 w1 comma: 4 passes, 17 s
+  A_qwen1.7b_list_k0_e2_Tan_f0_allnw_N8 w1 lines: 4 passes, 19 s
+  A_qwen1.7b_list_k0_e2_Tan_f0_allnw_N8 w2 comma: 4 passes, 21 s
+  A_qwen1.7b_list_k0_e2_Tan_f0_allnw_N8 w2 lines: 4 passes, 24 s
+  A_qwen1.7b_list_k0_e2_Tan_f0_allnw_N8 w3 comma: 4 passes, 26 s
+  A_qwen1.7b_list_k0_e2_Tan_f0_allnw_N8 w3 lines: 4 passes, 29 s
+  A_qwen1.7b_list_k0_e2_Tan_f0_allnw_N8 w4 comma: 4 passes, 31 s
+  A_qwen1.7b_list_k0_e2_Tan_f0_allnw_N8 w4 lines: 4 passes, 34 s
+cell A_qwen1.7b_list_k0_e4_Tan_f0_allnw_N8
+  A_qwen1.7b_list_k0_e4_Tan_f0_allnw_N8 w0 comma: 16 passes, 10 s
+  A_qwen1.7b_list_k0_e4_Tan_f0_allnw_N8 w0 lines: 16 passes, 21 s
+  A_qwen1.7b_list_k0_e4_Tan_f0_allnw_N8 w1 comma: 16 passes, 32 s
+  A_qwen1.7b_list_k0_e4_Tan_f0_allnw_N8 w1 lines: 16 passes, 43 s
+  A_qwen1.7b_list_k0_e4_Tan_f0_allnw_N8 w2 comma: 16 passes, 53 s
+  A_qwen1.7b_list_k0_e4_Tan_f0_allnw_N8 w2 lines: 16 passes, 62 s
+  A_qwen1.7b_list_k0_e4_Tan_f0_allnw_N8 w3 comma: 16 passes, 73 s
+  A_qwen1.7b_list_k0_e4_Tan_f0_allnw_N8 w3 lines: 16 passes, 83 s
+  A_qwen1.7b_list_k0_e4_Tan_f0_allnw_N8 w4 comma: 16 passes, 94 s
+  A_qwen1.7b_list_k0_e4_Tan_f0_allnw_N8 w4 lines: 16 passes, 105 s
+cell A_qwen1.7b_list_k0_e7_Tan_f0_allnw_N8
+  A_qwen1.7b_list_k0_e7_Tan_f0_allnw_N8 w0 comma: 48 passes, 32 s
+  A_qwen1.7b_list_k0_e7_Tan_f0_allnw_N8 w0 lines: 48 passes, 69 s
+  A_qwen1.7b_list_k0_e7_Tan_f0_allnw_N8 w1 comma: 48 passes, 102 s
+  A_qwen1.7b_list_k0_e7_Tan_f0_allnw_N8 w1 lines: 48 passes, 139 s
+  A_qwen1.7b_list_k0_e7_Tan_f0_allnw_N8 w2 comma: 48 passes, 168 s
+  A_qwen1.7b_list_k0_e7_Tan_f0_allnw_N8 w2 lines: 48 passes, 201 s
+  A_qwen1.7b_list_k0_e7_Tan_f0_allnw_N8 w3 comma: 48 passes, 232 s
+  A_qwen1.7b_list_k0_e7_Tan_f0_allnw_N8 w3 lines: 48 passes, 268 s
+  A_qwen1.7b_list_k0_e7_Tan_f0_allnw_N8 w4 comma: 48 passes, 300 s
+  A_qwen1.7b_list_k0_e7_Tan_f0_allnw_N8 w4 lines: 48 passes, 335 s
+cell A_qwen1.7b_list_k3_e4_Tan_f0_allnw_N8
+  A_qwen1.7b_list_k3_e4_Tan_f0_allnw_N8 w0 comma: 128 passes, 48 s
+  A_qwen1.7b_list_k3_e4_Tan_f0_allnw_N8 w0 lines: 128 passes, 100 s
+  A_qwen1.7b_list_k3_e4_Tan_f0_allnw_N8 w1 comma: 128 passes, 150 s
+  A_qwen1.7b_list_k3_e4_Tan_f0_allnw_N8 w1 lines: 128 passes, 208 s
+  A_qwen1.7b_list_k3_e4_Tan_f0_allnw_N8 w2 comma: 128 passes, 252 s
+  A_qwen1.7b_list_k3_e4_Tan_f0_allnw_N8 w2 lines: 128 passes, 300 s
+  A_qwen1.7b_list_k3_e4_Tan_f0_allnw_N8 w3 comma: 128 passes, 348 s
+  A_qwen1.7b_list_k3_e4_Tan_f0_allnw_N8 w3 lines: 128 passes, 399 s
+  A_qwen1.7b_list_k3_e4_Tan_f0_allnw_N8 w4 comma: 128 passes, 448 s
+  A_qwen1.7b_list_k3_e4_Tan_f0_allnw_N8 w4 lines: 128 passes, 501 s
+=== queue end 23/09/2026 23:46:01,65 

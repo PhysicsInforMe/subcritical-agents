@@ -1,0 +1,83 @@
+=== queue2 start 23/09/2026 15:24:39,30 
+  w0 k=-4 (-1, -1, -1, -1): parsed 100/100, freq A 0.84 vs table 0.93 (31 s)
+  w0 k=-2 (-1, -1, -1, 1): parsed 100/100, freq A 0.66 vs table 0.74 (60 s)
+  w0 k=-2 (-1, -1, 1, -1): parsed 100/100, freq A 0.56 vs table 0.58 (89 s)
+  w0 k=-2 (-1, 1, -1, -1): parsed 100/100, freq A 0.82 vs table 0.79 (117 s)
+  w0 k=-2 (1, -1, -1, -1): parsed 100/100, freq A 0.59 vs table 0.63 (145 s)
+  w0 k=+0 (-1, -1, 1, 1): parsed 100/100, freq A 0.56 vs table 0.57 (172 s)
+  w0 k=+0 (-1, 1, -1, 1): parsed 100/100, freq A 0.63 vs table 0.64 (199 s)
+  w0 k=+0 (-1, 1, 1, -1): parsed 100/100, freq A 0.79 vs table 0.71 (227 s)
+  w0 k=+0 (1, -1, -1, 1): parsed 100/100, freq A 0.74 vs table 0.68 (254 s)
+  w0 k=+0 (1, -1, 1, -1): parsed 100/100, freq A 0.58 vs table 0.63 (282 s)
+  w0 k=+0 (1, 1, -1, -1): parsed 100/100, freq A 0.82 vs table 0.73 (309 s)
+  w0 k=+2 (-1, 1, 1, 1): parsed 100/100, freq A 0.7 vs table 0.62 (336 s)
+  w0 k=+2 (1, -1, 1, 1): parsed 100/100, freq A 0.69 vs table 0.60 (363 s)
+  w0 k=+2 (1, 1, -1, 1): parsed 100/100, freq A 0.85 vs table 0.79 (390 s)
+  w0 k=+2 (1, 1, 1, -1): parsed 100/100, freq A 0.9 vs table 0.75 (418 s)
+  w0 k=+4 (1, 1, 1, 1): parsed 100/100, freq A 1.0 vs table 0.97 (445 s)
+  w4 k=-4 (-1, -1, -1, -1): parsed 55/100, freq A 0.24 vs table 0.03 (471 s)
+  w4 k=-2 (-1, -1, -1, 1): parsed 56/100, freq A 0.91 vs table 0.76 (497 s)
+  w4 k=-2 (-1, -1, 1, -1): parsed 24/100, freq A 0.62 vs table 0.35 (524 s)
+  w4 k=-2 (-1, 1, -1, -1): parsed 12/100, freq A 1.0 vs table 0.85 (550 s)
+  w4 k=-2 (1, -1, -1, -1): parsed 30/100, freq A 0.97 vs table 0.94 (576 s)
+  w4 k=+0 (-1, -1, 1, 1): parsed 28/100, freq A 0.93 vs table 0.91 (602 s)
+  w4 k=+0 (-1, 1, -1, 1): parsed 11/100, freq A 0.91 vs table 0.90 (629 s)
+  w4 k=+0 (-1, 1, 1, -1): parsed 25/100, freq A 0.96 vs table 0.94 (655 s)
+  w4 k=+0 (1, -1, -1, 1): parsed 23/100, freq A 1.0 vs table 0.99 (681 s)
+  w4 k=+0 (1, -1, 1, -1): parsed 51/100, freq A 1.0 vs table 0.99 (707 s)
+  w4 k=+0 (1, 1, -1, -1): parsed 78/100, freq A 1.0 vs table 1.00 (733 s)
+  w4 k=+2 (-1, 1, 1, 1): parsed 41/100, freq A 1.0 vs table 0.98 (760 s)
+  w4 k=+2 (1, -1, 1, 1): parsed 37/100, freq A 0.97 vs table 0.99 (786 s)
+  w4 k=+2 (1, 1, -1, 1): parsed 79/100, freq A 1.0 vs table 1.00 (812 s)
+  w4 k=+2 (1, 1, 1, -1): parsed 91/100, freq A 1.0 vs table 1.00 (839 s)
+  w4 k=+4 (1, 1, 1, 1): parsed 98/100, freq A 1.0 vs table 1.00 (866 s)
+== qwen0.6b: unparseable 0.269, mean |diff| 0.058, max 0.273, corr 0.9359124137850464, same side 31/32, within 0.1 27/32
+=== 0.6B generation done 15:39:15,51 
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|#####     | 1/2 [00:00<00:00,  7.88it/s]Loading checkpoint shards: 100%|##########| 2/2 [00:00<00:00, 13.99it/s]
+cell A_qwen1.7b_list_k0_e4_Tan_f0_allba_N8
+  A_qwen1.7b_list_k0_e4_Tan_f0_allba_N8 w0 comma: 16 passes, 57 s
+  A_qwen1.7b_list_k0_e4_Tan_f0_allba_N8 w0 lines: 16 passes, 69 s
+  A_qwen1.7b_list_k0_e4_Tan_f0_allba_N8 w1 comma: 16 passes, 79 s
+  A_qwen1.7b_list_k0_e4_Tan_f0_allba_N8 w1 lines: 16 passes, 91 s
+  A_qwen1.7b_list_k0_e4_Tan_f0_allba_N8 w2 comma: 16 passes, 102 s
+  A_qwen1.7b_list_k0_e4_Tan_f0_allba_N8 w2 lines: 16 passes, 115 s
+  A_qwen1.7b_list_k0_e4_Tan_f0_allba_N8 w3 comma: 16 passes, 125 s
+  A_qwen1.7b_list_k0_e4_Tan_f0_allba_N8 w3 lines: 16 passes, 136 s
+  A_qwen1.7b_list_k0_e4_Tan_f0_allba_N8 w4 comma: 16 passes, 147 s
+  A_qwen1.7b_list_k0_e4_Tan_f0_allba_N8 w4 lines: 16 passes, 159 s
+=== 1.7B cell done 15:42:05,63 
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards: 100%|##########| 2/2 [00:00<00:00, 110.81it/s]
+  w0 k=-4 (-1, -1, -1, -1): parsed 100/100, freq A 0.01 vs table 0.14 (62 s)
+  w0 k=-2 (-1, -1, -1, 1): parsed 100/100, freq A 0.35 vs table 0.26 (93 s)
+  w0 k=-2 (-1, -1, 1, -1): parsed 100/100, freq A 0.0 vs table 0.00 (125 s)
+  w0 k=-2 (-1, 1, -1, -1): parsed 100/100, freq A 1.0 vs table 1.00 (156 s)
+  w0 k=-2 (1, -1, -1, -1): parsed 100/100, freq A 1.0 vs table 1.00 (188 s)
+  w0 k=+0 (-1, -1, 1, 1): parsed 100/100, freq A 1.0 vs table 1.00 (220 s)
+  w0 k=+0 (-1, 1, -1, 1): parsed 100/100, freq A 1.0 vs table 1.00 (252 s)
+  w0 k=+0 (-1, 1, 1, -1): parsed 99/100, freq A 1.0 vs table 1.00 (283 s)
+  w0 k=+0 (1, -1, -1, 1): parsed 99/100, freq A 1.0 vs table 1.00 (315 s)
+  w0 k=+0 (1, -1, 1, -1): parsed 100/100, freq A 1.0 vs table 1.00 (346 s)
+  w0 k=+0 (1, 1, -1, -1): parsed 100/100, freq A 1.0 vs table 1.00 (377 s)
+  w0 k=+2 (-1, 1, 1, 1): parsed 100/100, freq A 1.0 vs table 1.00 (408 s)
+  w0 k=+2 (1, -1, 1, 1): parsed 100/100, freq A 1.0 vs table 1.00 (438 s)
+  w0 k=+2 (1, 1, -1, 1): parsed 98/100, freq A 1.0 vs table 1.00 (467 s)
+  w0 k=+2 (1, 1, 1, -1): parsed 100/100, freq A 1.0 vs table 1.00 (497 s)
+  w0 k=+4 (1, 1, 1, 1): parsed 100/100, freq A 1.0 vs table 1.00 (526 s)
+  w4 k=-4 (-1, -1, -1, -1): parsed 100/100, freq A 0.0 vs table 0.00 (554 s)
+  w4 k=-2 (-1, -1, -1, 1): parsed 100/100, freq A 0.0 vs table 0.00 (582 s)
+  w4 k=-2 (-1, -1, 1, -1): parsed 100/100, freq A 0.0 vs table 0.00 (610 s)
+  w4 k=-2 (-1, 1, -1, -1): parsed 100/100, freq A 0.0 vs table 0.00 (638 s)
+  w4 k=-2 (1, -1, -1, -1): parsed 100/100, freq A 1.0 vs table 1.00 (666 s)
+  w4 k=+0 (-1, -1, 1, 1): parsed 100/100, freq A 0.0 vs table 0.00 (695 s)
+  w4 k=+0 (-1, 1, -1, 1): parsed 100/100, freq A 0.0 vs table 0.00 (723 s)
+  w4 k=+0 (-1, 1, 1, -1): parsed 100/100, freq A 0.0 vs table 0.00 (751 s)
+  w4 k=+0 (1, -1, -1, 1): parsed 100/100, freq A 1.0 vs table 1.00 (779 s)
+  w4 k=+0 (1, -1, 1, -1): parsed 100/100, freq A 1.0 vs table 1.00 (807 s)
+  w4 k=+0 (1, 1, -1, -1): parsed 100/100, freq A 1.0 vs table 1.00 (835 s)
+  w4 k=+2 (-1, 1, 1, 1): parsed 100/100, freq A 0.0 vs table 0.00 (863 s)
+  w4 k=+2 (1, -1, 1, 1): parsed 100/100, freq A 1.0 vs table 1.00 (891 s)
+  w4 k=+2 (1, 1, -1, 1): parsed 100/100, freq A 1.0 vs table 1.00 (919 s)
+  w4 k=+2 (1, 1, 1, -1): parsed 100/100, freq A 1.0 vs table 1.00 (947 s)
+  w4 k=+4 (1, 1, 1, 1): parsed 100/100, freq A 1.0 vs table 1.00 (975 s)
+== qwen1.7b: unparseable 0.001, mean |diff| 0.007, max 0.134, corr 0.9980562822589903, same side 32/32, within 0.1 31/32
+=== queue end 23/09/2026 15:58:31,79 

@@ -1,0 +1,92 @@
+=== labels X/Y queue start 30/09/2026 13:56:00,72 
+cell A_qwen0.6b_list_k0_e4_Tan_f0_allxy_N8 labels ('X', 'Y')
+  A_qwen0.6b_list_k0_e4_Tan_f0_allxy_N8 w0 comma: 16 passes, 17 s
+  A_qwen0.6b_list_k0_e4_Tan_f0_allxy_N8 w0 lines: 16 passes, 36 s
+  A_qwen0.6b_list_k0_e4_Tan_f0_allxy_N8 w1 comma: 16 passes, 52 s
+  A_qwen0.6b_list_k0_e4_Tan_f0_allxy_N8 w1 lines: 16 passes, 69 s
+  A_qwen0.6b_list_k0_e4_Tan_f0_allxy_N8 w2 comma: 16 passes, 86 s
+  A_qwen0.6b_list_k0_e4_Tan_f0_allxy_N8 w2 lines: 16 passes, 104 s
+  A_qwen0.6b_list_k0_e4_Tan_f0_allxy_N8 w3 comma: 16 passes, 120 s
+  A_qwen0.6b_list_k0_e4_Tan_f0_allxy_N8 w3 lines: 16 passes, 137 s
+  A_qwen0.6b_list_k0_e4_Tan_f0_allxy_N8 w4 comma: 16 passes, 153 s
+  A_qwen0.6b_list_k0_e4_Tan_f0_allxy_N8 w4 lines: 16 passes, 171 s
+cell A_qwen0.6b_list_k0_e4_Tan_f0_allxyba_N8 labels ('X', 'Y')
+  A_qwen0.6b_list_k0_e4_Tan_f0_allxyba_N8 w0 comma: 16 passes, 17 s
+  A_qwen0.6b_list_k0_e4_Tan_f0_allxyba_N8 w0 lines: 16 passes, 34 s
+  A_qwen0.6b_list_k0_e4_Tan_f0_allxyba_N8 w1 comma: 16 passes, 51 s
+  A_qwen0.6b_list_k0_e4_Tan_f0_allxyba_N8 w1 lines: 16 passes, 67 s
+  A_qwen0.6b_list_k0_e4_Tan_f0_allxyba_N8 w2 comma: 16 passes, 85 s
+  A_qwen0.6b_list_k0_e4_Tan_f0_allxyba_N8 w2 lines: 16 passes, 103 s
+  A_qwen0.6b_list_k0_e4_Tan_f0_allxyba_N8 w3 comma: 16 passes, 119 s
+  A_qwen0.6b_list_k0_e4_Tan_f0_allxyba_N8 w3 lines: 16 passes, 136 s
+  A_qwen0.6b_list_k0_e4_Tan_f0_allxyba_N8 w4 comma: 16 passes, 152 s
+  A_qwen0.6b_list_k0_e4_Tan_f0_allxyba_N8 w4 lines: 16 passes, 169 s
+cell A_qwen0.6b_list_k0_e4_Tan_f0_allnwxy_N8 labels ('X', 'Y')
+  A_qwen0.6b_list_k0_e4_Tan_f0_allnwxy_N8 w0 comma: 16 passes, 16 s
+  A_qwen0.6b_list_k0_e4_Tan_f0_allnwxy_N8 w0 lines: 16 passes, 34 s
+  A_qwen0.6b_list_k0_e4_Tan_f0_allnwxy_N8 w1 comma: 16 passes, 50 s
+  A_qwen0.6b_list_k0_e4_Tan_f0_allnwxy_N8 w1 lines: 16 passes, 67 s
+  A_qwen0.6b_list_k0_e4_Tan_f0_allnwxy_N8 w2 comma: 16 passes, 83 s
+  A_qwen0.6b_list_k0_e4_Tan_f0_allnwxy_N8 w2 lines: 16 passes, 100 s
+  A_qwen0.6b_list_k0_e4_Tan_f0_allnwxy_N8 w3 comma: 16 passes, 117 s
+  A_qwen0.6b_list_k0_e4_Tan_f0_allnwxy_N8 w3 lines: 16 passes, 135 s
+  A_qwen0.6b_list_k0_e4_Tan_f0_allnwxy_N8 w4 comma: 16 passes, 152 s
+  A_qwen0.6b_list_k0_e4_Tan_f0_allnwxy_N8 w4 lines: 16 passes, 169 s
+cell A_qwen0.6b_list_k0_e4_Tan_f0_allnwxyba_N8 labels ('X', 'Y')
+  A_qwen0.6b_list_k0_e4_Tan_f0_allnwxyba_N8 w0 comma: 16 passes, 19 s
+  A_qwen0.6b_list_k0_e4_Tan_f0_allnwxyba_N8 w0 lines: 16 passes, 38 s
+  A_qwen0.6b_list_k0_e4_Tan_f0_allnwxyba_N8 w1 comma: 16 passes, 54 s
+  A_qwen0.6b_list_k0_e4_Tan_f0_allnwxyba_N8 w1 lines: 16 passes, 72 s
+  A_qwen0.6b_list_k0_e4_Tan_f0_allnwxyba_N8 w2 comma: 16 passes, 87 s
+  A_qwen0.6b_list_k0_e4_Tan_f0_allnwxyba_N8 w2 lines: 16 passes, 104 s
+  A_qwen0.6b_list_k0_e4_Tan_f0_allnwxyba_N8 w3 comma: 16 passes, 120 s
+  A_qwen0.6b_list_k0_e4_Tan_f0_allnwxyba_N8 w3 lines: 16 passes, 139 s
+  A_qwen0.6b_list_k0_e4_Tan_f0_allnwxyba_N8 w4 comma: 16 passes, 155 s
+  A_qwen0.6b_list_k0_e4_Tan_f0_allnwxyba_N8 w4 lines: 16 passes, 171 s
+=== 0.6B done 14:07:33,71 
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:00<00:00,  3.88it/s]Loading checkpoint shards: 100%|██████████| 2/2 [00:00<00:00,  7.69it/s]
+cell A_qwen1.7b_list_k0_e4_Tan_f0_allxy_N8 labels ('X', 'Y')
+  A_qwen1.7b_list_k0_e4_Tan_f0_allxy_N8 w0 comma: 16 passes, 16 s
+  A_qwen1.7b_list_k0_e4_Tan_f0_allxy_N8 w0 lines: 16 passes, 31 s
+  A_qwen1.7b_list_k0_e4_Tan_f0_allxy_N8 w1 comma: 16 passes, 45 s
+  A_qwen1.7b_list_k0_e4_Tan_f0_allxy_N8 w1 lines: 16 passes, 60 s
+  A_qwen1.7b_list_k0_e4_Tan_f0_allxy_N8 w2 comma: 16 passes, 75 s
+  A_qwen1.7b_list_k0_e4_Tan_f0_allxy_N8 w2 lines: 16 passes, 91 s
+  A_qwen1.7b_list_k0_e4_Tan_f0_allxy_N8 w3 comma: 16 passes, 104 s
+  A_qwen1.7b_list_k0_e4_Tan_f0_allxy_N8 w3 lines: 16 passes, 119 s
+  A_qwen1.7b_list_k0_e4_Tan_f0_allxy_N8 w4 comma: 16 passes, 132 s
+  A_qwen1.7b_list_k0_e4_Tan_f0_allxy_N8 w4 lines: 16 passes, 148 s
+cell A_qwen1.7b_list_k0_e4_Tan_f0_allxyba_N8 labels ('X', 'Y')
+  A_qwen1.7b_list_k0_e4_Tan_f0_allxyba_N8 w0 comma: 16 passes, 15 s
+  A_qwen1.7b_list_k0_e4_Tan_f0_allxyba_N8 w0 lines: 16 passes, 31 s
+  A_qwen1.7b_list_k0_e4_Tan_f0_allxyba_N8 w1 comma: 16 passes, 44 s
+  A_qwen1.7b_list_k0_e4_Tan_f0_allxyba_N8 w1 lines: 16 passes, 58 s
+  A_qwen1.7b_list_k0_e4_Tan_f0_allxyba_N8 w2 comma: 16 passes, 73 s
+  A_qwen1.7b_list_k0_e4_Tan_f0_allxyba_N8 w2 lines: 16 passes, 89 s
+  A_qwen1.7b_list_k0_e4_Tan_f0_allxyba_N8 w3 comma: 16 passes, 102 s
+  A_qwen1.7b_list_k0_e4_Tan_f0_allxyba_N8 w3 lines: 16 passes, 116 s
+  A_qwen1.7b_list_k0_e4_Tan_f0_allxyba_N8 w4 comma: 16 passes, 129 s
+  A_qwen1.7b_list_k0_e4_Tan_f0_allxyba_N8 w4 lines: 16 passes, 144 s
+cell A_qwen1.7b_list_k0_e4_Tan_f0_allnwxy_N8 labels ('X', 'Y')
+  A_qwen1.7b_list_k0_e4_Tan_f0_allnwxy_N8 w0 comma: 16 passes, 14 s
+  A_qwen1.7b_list_k0_e4_Tan_f0_allnwxy_N8 w0 lines: 16 passes, 29 s
+  A_qwen1.7b_list_k0_e4_Tan_f0_allnwxy_N8 w1 comma: 16 passes, 44 s
+  A_qwen1.7b_list_k0_e4_Tan_f0_allnwxy_N8 w1 lines: 16 passes, 60 s
+  A_qwen1.7b_list_k0_e4_Tan_f0_allnwxy_N8 w2 comma: 16 passes, 72 s
+  A_qwen1.7b_list_k0_e4_Tan_f0_allnwxy_N8 w2 lines: 16 passes, 86 s
+  A_qwen1.7b_list_k0_e4_Tan_f0_allnwxy_N8 w3 comma: 16 passes, 100 s
+  A_qwen1.7b_list_k0_e4_Tan_f0_allnwxy_N8 w3 lines: 16 passes, 115 s
+  A_qwen1.7b_list_k0_e4_Tan_f0_allnwxy_N8 w4 comma: 16 passes, 128 s
+  A_qwen1.7b_list_k0_e4_Tan_f0_allnwxy_N8 w4 lines: 16 passes, 143 s
+cell A_qwen1.7b_list_k0_e4_Tan_f0_allnwxyba_N8 labels ('X', 'Y')
+  A_qwen1.7b_list_k0_e4_Tan_f0_allnwxyba_N8 w0 comma: 16 passes, 13 s
+  A_qwen1.7b_list_k0_e4_Tan_f0_allnwxyba_N8 w0 lines: 16 passes, 28 s
+  A_qwen1.7b_list_k0_e4_Tan_f0_allnwxyba_N8 w1 comma: 16 passes, 43 s
+  A_qwen1.7b_list_k0_e4_Tan_f0_allnwxyba_N8 w1 lines: 16 passes, 58 s
+  A_qwen1.7b_list_k0_e4_Tan_f0_allnwxyba_N8 w2 comma: 16 passes, 70 s
+  A_qwen1.7b_list_k0_e4_Tan_f0_allnwxyba_N8 w2 lines: 16 passes, 83 s
+  A_qwen1.7b_list_k0_e4_Tan_f0_allnwxyba_N8 w3 comma: 16 passes, 96 s
+  A_qwen1.7b_list_k0_e4_Tan_f0_allnwxyba_N8 w3 lines: 16 passes, 110 s
+  A_qwen1.7b_list_k0_e4_Tan_f0_allnwxyba_N8 w4 comma: 16 passes, 123 s
+  A_qwen1.7b_list_k0_e4_Tan_f0_allnwxyba_N8 w4 lines: 16 passes, 138 s
+=== queue end 30/09/2026 14:17:19,10 

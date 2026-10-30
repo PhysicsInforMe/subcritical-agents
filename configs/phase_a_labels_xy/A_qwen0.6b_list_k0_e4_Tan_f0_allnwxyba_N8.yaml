@@ -1,0 +1,70 @@
+# Token-identity test of the label bias (2026-09-30): labels X/Y instead of A/B, 4 peers, k = 0.
+cell_id: A_qwen0.6b_list_k0_e4_Tan_f0_allnwxyba_N8
+model_key: qwen0.6b
+model: Qwen/Qwen3-0.6B
+channel: list
+k_mem: 0
+exposure: 4
+topology: all
+N: 8
+phase: A
+f_spec: 0.0
+temperatures:
+- 0.5
+- 1.0
+- 2.0
+- 4.0
+chi_scan:
+  T_min: 0.25
+  T_max: 64.0
+  n_T: 13
+max_orderings: 8
+seeds:
+- 1
+- 2
+- 3
+- 4
+- 5
+- 6
+- 7
+- 8
+- 9
+- 10
+- 11
+- 12
+- 13
+- 14
+- 15
+- 16
+- 17
+- 18
+- 19
+- 20
+- 21
+- 22
+- 23
+- 24
+- 25
+- 26
+- 27
+- 28
+- 29
+- 30
+n_rounds: 20
+n_boot: 300
+formulations: configs/phase_a_formulations_new_ba.yaml
+stubborn_z:
+- -0.5
+- -0.375
+- -0.25
+- -0.125
+- 0.0
+- 0.125
+- 0.25
+- 0.375
+- 0.5
+dtype: float32
+revision: c1899de289a04d12100db370d81485cdf75e47ca
+labels:
+- X
+- Y

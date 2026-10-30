@@ -1,0 +1,15 @@
+# Phase 0, check D: De Nobili check with logits (§5 week 1, §10.2, §14.1 B3-B6)
+models:
+  - {name: Qwen/Qwen3-0.6B, revision: null}   # revision resolved and pinned in the manifest
+  - {name: Qwen/Qwen3-1.7B, revision: null}
+temperatures: [0.5, 1.0, 2.0]                  # analytic rescaling of the same logits (B4)
+n_boot: 500                                     # ordering bootstrap for the fit
+template: null                                  # null = DEFAULT_TEMPLATE in src/llm/tabulate.py
+chi_scan:
+  L: 6
+  T_min: 0.25                                   # log-spaced: gaps of 30 logits need T ~ 30 to cross over
+  T_max: 64.0
+  n_T: 13
+  seeds: [1, 2, 3, 4]
+  n_sweeps: 400
+  burn: 0.5

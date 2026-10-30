@@ -1,0 +1,9 @@
+# Phase 0, check B: synthetic recovery of Glauber parameters (§14.1 B1)
+seed: 20260909
+n_updates: 60000
+n_boot: 400
+two_term: {J: 0.30, h: 0.40}
+three_term: {J: 0.25, h_bias: 0.15, h_spec: 0.60}
+recovery_updates: 20000
+recovery_draws: 200
+recovery_boot: 150

@@ -1,0 +1,5 @@
+formats:
+- comma
+wordings:
+- 'Player 1 is one of several players. Each player holds a state, either {a} or {b}. Player 1 sees {n_peers} other players and their states are: {peers}.{memory} Answer with the state Player 1 should hold
+  now, as JSON with a single key "state".'

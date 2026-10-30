@@ -1,0 +1,1524 @@
+{
+  "manifest": {
+    "commit": "db077509de2658b94e2310146343900d4f8b1c43",
+    "config": {
+      "models": "qwen0.6b,qwen1.7b",
+      "n_boot": 300,
+      "out": "results/phase_a/dF0_classes.json",
+      "results": "results/phase_a"
+    },
+    "hardware": {
+      "cpu_count": 16,
+      "machine": "AMD64",
+      "numpy": "2.3.5",
+      "platform": "Windows-11-10.0.26200-SP0",
+      "python": "3.12.10",
+      "scipy": "1.17.0",
+      "torch": "2.13.0+cpu",
+      "torch_threads": 8,
+      "transformers": "4.56.0"
+    },
+    "seeds": [
+      40
+    ],
+    "timestamp": "2026-10-30T10:16:34+00:00",
+    "tree": {
+      "diff_sha1": "3870ddb77b93dbe87caf03d1948d9c994c0e53a4",
+      "dirty": true
+    }
+  },
+  "models": {
+    "qwen0.6b": {
+      "e10_ord32": {
+        "cell": "A_qwen0.6b_list_k0_e10_Tan_f0_allo32_N32",
+        "counts": {
+          "disordered": 9,
+          "exact": 0,
+          "ordered": 1,
+          "undetermined": 0
+        },
+        "dF0_mean": 0.5342458311792253,
+        "exposure": 10,
+        "n_orderings": 32,
+        "rows": [
+          {
+            "ci_orderings": [
+              -0.06078076445922842,
+              0.07335091251066404
+            ],
+            "class": "disordered",
+            "dF0": 0.00599250496169379,
+            "format": "comma",
+            "wording": 0,
+            "zJ_gap": -0.04568438604232557
+          },
+          {
+            "ci_orderings": [
+              0.372761141249095,
+              0.49740870579341445
+            ],
+            "class": "disordered",
+            "dF0": 0.4364379348253955,
+            "format": "lines",
+            "wording": 0,
+            "zJ_gap": 0.504304118654041
+          },
+          {
+            "ci_orderings": [
+              0.3612534795794514,
+              0.4779294874250051
+            ],
+            "class": "disordered",
+            "dF0": 0.4154321012378448,
+            "format": "comma",
+            "wording": 1,
+            "zJ_gap": 0.3020259790318389
+          },
+          {
+            "ci_orderings": [
+              0.38804220207923346,
+              0.45664982015221345
+            ],
+            "class": "disordered",
+            "dF0": 0.42153343902229246,
+            "format": "lines",
+            "wording": 1,
+            "zJ_gap": 0.42483255058841213
+          },
+          {
+            "ci_orderings": [
+              0.847904139282013,
+              0.9679780318440495
+            ],
+            "class": "disordered",
+            "dF0": 0.9048733472949433,
+            "format": "comma",
+            "wording": 2,
+            "zJ_gap": 1.83458351772271
+          },
+          {
+            "ci_orderings": [
+              0.7169686954623389,
+              0.8633772856159599
+            ],
+            "class": "disordered",
+            "dF0": 0.7947232016985994,
+            "format": "lines",
+            "wording": 2,
+            "zJ_gap": 2.012752734132132
+          },
+          {
+            "ci_orderings": [
+              0.5448382983093136,
+              0.7561006028428129
+            ],
+            "class": "disordered",
+            "dF0": 0.646606813504147,
+            "format": "comma",
+            "wording": 3,
+            "zJ_gap": 2.0524543927909358
+          },
+          {
+            "ci_orderings": [
+              1.1204165277567264,
+              1.3644136461110068
+            ],
+            "class": "ordered",
+            "dF0": 1.2563979607721487,
+            "format": "lines",
+            "wording": 3,
+            "zJ_gap": 2.1285459995257967
+          },
+          {
+            "ci_orderings": [
+              0.2422952851628829,
+              0.30024486576481213
+            ],
+            "class": "disordered",
+            "dF0": 0.27150620825533434,
+            "format": "comma",
+            "wording": 4,
+            "zJ_gap": 2.4226851522716415
+          },
+          {
+            "ci_orderings": [
+              0.15558065374531027,
+              0.22001368338142585
+            ],
+            "class": "disordered",
+            "dF0": 0.18895480021985378,
+            "format": "lines",
+            "wording": 4,
+            "zJ_gap": 2.408141418304944
+          }
+        ]
+      },
+      "e2_ord8": {
+        "cell": "A_qwen0.6b_list_k0_e2_Tan_f0_all_N8",
+        "counts": {
+          "disordered": 10,
+          "exact": 10,
+          "ordered": 0,
+          "undetermined": 0
+        },
+        "dF0_mean": 0.5348919100813254,
+        "exposure": 2,
+        "n_orderings": 8,
+        "rows": [
+          {
+            "ci_orderings": [
+              -0.08400043796596979,
+              -0.08400043796596979
+            ],
+            "class": "disordered_exact",
+            "dF0": -0.08400043796596979,
+            "format": "comma",
+            "wording": 0,
+            "zJ_gap": -0.16944412404964562
+          },
+          {
+            "ci_orderings": [
+              0.21773300057870149,
+              0.21773300057870149
+            ],
+            "class": "disordered_exact",
+            "dF0": 0.21773300057870149,
+            "format": "lines",
+            "wording": 0,
+            "zJ_gap": 0.3295121348654352
+          },
+          {
+            "ci_orderings": [
+              0.01746467862218104,
+              0.01746467862218104
+            ],
+            "class": "disordered_exact",
+            "dF0": 0.01746467862218104,
+            "format": "comma",
+            "wording": 1,
+            "zJ_gap": 0.02361956025924639
+          },
+          {
+            "ci_orderings": [
+              -0.33063266090482824,
+              -0.33063266090482824
+            ],
+            "class": "disordered_exact",
+            "dF0": -0.33063266090482824,
+            "format": "lines",
+            "wording": 1,
+            "zJ_gap": -0.42884943261997116
+          },
+          {
+            "ci_orderings": [
+              0.8260137991161765,
+              0.8260137991161765
+            ],
+            "class": "disordered_exact",
+            "dF0": 0.8260137991161765,
+            "format": "comma",
+            "wording": 2,
+            "zJ_gap": 1.5560659714675673
+          },
+          {
+            "ci_orderings": [
+              0.964193627681631,
+              0.964193627681631
+            ],
+            "class": "disordered_exact",
+            "dF0": 0.964193627681631,
+            "format": "lines",
+            "wording": 2,
+            "zJ_gap": 2.424961445665088
+          },
+          {
+            "ci_orderings": [
+              0.9013230555293683,
+              0.9013230555293683
+            ],
+            "class": "disordered_exact",
+            "dF0": 0.9013230555293683,
+            "format": "comma",
+            "wording": 3,
+            "zJ_gap": 1.816405268305865
+          },
+          {
+            "ci_orderings": [
+              0.9681481949680437,
+              0.9681481949680437
+            ],
+            "class": "disordered_exact",
+            "dF0": 0.9681481949680437,
+            "format": "lines",
+            "wording": 3,
+            "zJ_gap": 2.224968581940121
+          },
+          {
+            "ci_orderings": [
+              0.9524245312109159,
+              0.9524245312109159
+            ],
+            "class": "disordered_exact",
+            "dF0": 0.9524245312109159,
+            "format": "comma",
+            "wording": 4,
+            "zJ_gap": 3.1456772423018
+          },
+          {
+            "ci_orderings": [
+              0.9162513119770344,
+              0.9162513119770344
+            ],
+            "class": "disordered_exact",
+            "dF0": 0.9162513119770344,
+            "format": "lines",
+            "wording": 4,
+            "zJ_gap": 2.4321256782824037
+          }
+        ]
+      },
+      "e30_ord32": {
+        "cell": "A_qwen0.6b_list_k0_e30_Tan_f0_allo32_N32",
+        "counts": {
+          "disordered": 9,
+          "exact": 0,
+          "ordered": 1,
+          "undetermined": 0
+        },
+        "dF0_mean": 0.5445121678802622,
+        "exposure": 30,
+        "n_orderings": 32,
+        "rows": [
+          {
+            "ci_orderings": [
+              0.2772649819983847,
+              0.3947753654981177
+            ],
+            "class": "disordered",
+            "dF0": 0.32464903419737734,
+            "format": "comma",
+            "wording": 0,
+            "zJ_gap": 0.5480882091189082
+          },
+          {
+            "ci_orderings": [
+              0.6728395484293381,
+              0.77976819497666
+            ],
+            "class": "disordered",
+            "dF0": 0.7285713277566108,
+            "format": "lines",
+            "wording": 0,
+            "zJ_gap": 0.7327307025023264
+          },
+          {
+            "ci_orderings": [
+              0.3568022681922217,
+              0.49891949286968984
+            ],
+            "class": "disordered",
+            "dF0": 0.4292678924766591,
+            "format": "comma",
+            "wording": 1,
+            "zJ_gap": 0.5237010456957796
+          },
+          {
+            "ci_orderings": [
+              0.47715936462662534,
+              0.5687745611362149
+            ],
+            "class": "disordered",
+            "dF0": 0.5225166316236152,
+            "format": "lines",
+            "wording": 1,
+            "zJ_gap": 0.9260707171308843
+          },
+          {
+            "ci_orderings": [
+              0.6604630230712533,
+              0.8661327429804605
+            ],
+            "class": "disordered",
+            "dF0": 0.7681706030104873,
+            "format": "comma",
+            "wording": 2,
+            "zJ_gap": 1.587619305160268
+          },
+          {
+            "ci_orderings": [
+              0.49427527558291995,
+              0.5742175594224824
+            ],
+            "class": "disordered",
+            "dF0": 0.5339683164828912,
+            "format": "lines",
+            "wording": 2,
+            "zJ_gap": 1.9519727067337564
+          },
+          {
+            "ci_orderings": [
+              0.48259381394823164,
+              0.6691504094132049
+            ],
+            "class": "disordered",
+            "dF0": 0.5722384195960828,
+            "format": "comma",
+            "wording": 3,
+            "zJ_gap": 1.5400059420173449
+          },
+          {
+            "ci_orderings": [
+              1.140585847346054,
+              1.3471843402665522
+            ],
+            "class": "ordered",
+            "dF0": 1.237562108125645,
+            "format": "lines",
+            "wording": 3,
+            "zJ_gap": 1.8544428603723122
+          },
+          {
+            "ci_orderings": [
+              0.11586232204960356,
+              0.20102001652795573
+            ],
+            "class": "disordered",
+            "dF0": 0.15749900275086048,
+            "format": "comma",
+            "wording": 4,
+            "zJ_gap": 1.5648629510667227
+          },
+          {
+            "ci_orderings": [
+              0.11704140408158592,
+              0.23093111824552814
+            ],
+            "class": "disordered",
+            "dF0": 0.17067834278239324,
+            "format": "lines",
+            "wording": 4,
+            "zJ_gap": 1.7920292434660747
+          }
+        ]
+      },
+      "e4_ord8": {
+        "cell": "A_qwen0.6b_list_k0_e4_Tan_f0_all_N8",
+        "counts": {
+          "disordered": 9,
+          "exact": 10,
+          "ordered": 1,
+          "undetermined": 0
+        },
+        "dF0_mean": 0.5570489278877155,
+        "exposure": 4,
+        "n_orderings": 8,
+        "rows": [
+          {
+            "ci_orderings": [
+              0.03925326740317203,
+              0.03925326740317203
+            ],
+            "class": "disordered_exact",
+            "dF0": 0.03925326740317203,
+            "format": "comma",
+            "wording": 0,
+            "zJ_gap": 0.14430218880973253
+          },
+          {
+            "ci_orderings": [
+              0.2394349761086767,
+              0.2394349761086767
+            ],
+            "class": "disordered_exact",
+            "dF0": 0.2394349761086767,
+            "format": "lines",
+            "wording": 0,
+            "zJ_gap": 0.6177560926575882
+          },
+          {
+            "ci_orderings": [
+              0.11716530857519558,
+              0.11716530857519558
+            ],
+            "class": "disordered_exact",
+            "dF0": 0.11716530857519558,
+            "format": "comma",
+            "wording": 1,
+            "zJ_gap": -0.04473817981276579
+          },
+          {
+            "ci_orderings": [
+              -0.03801823993565545,
+              -0.03801823993565545
+            ],
+            "class": "disordered_exact",
+            "dF0": -0.03801823993565545,
+            "format": "lines",
+            "wording": 1,
+            "zJ_gap": -0.1734372139959983
+          },
+          {
+            "ci_orderings": [
+              0.6634339643185605,
+              0.6634339643185605
+            ],
+            "class": "disordered_exact",
+            "dF0": 0.6634339643185605,
+            "format": "comma",
+            "wording": 2,
+            "zJ_gap": 1.3434984877584635
+          },
+          {
+            "ci_orderings": [
+              0.9829064606631244,
+              0.9829064606631244
+            ],
+            "class": "disordered_exact",
+            "dF0": 0.9829064606631244,
+            "format": "lines",
+            "wording": 2,
+            "zJ_gap": 2.385064623904344
+          },
+          {
+            "ci_orderings": [
+              0.7921866684906798,
+              0.7921866684906798
+            ],
+            "class": "disordered_exact",
+            "dF0": 0.7921866684906798,
+            "format": "comma",
+            "wording": 3,
+            "zJ_gap": 1.6335034779306659
+          },
+          {
+            "ci_orderings": [
+              1.177142630848227,
+              1.177142630848227
+            ],
+            "class": "ordered_exact",
+            "dF0": 1.177142630848227,
+            "format": "lines",
+            "wording": 3,
+            "zJ_gap": 2.9713276470105554
+          },
+          {
+            "ci_orderings": [
+              0.7475255925354363,
+              0.7475255925354363
+            ],
+            "class": "disordered_exact",
+            "dF0": 0.7475255925354363,
+            "format": "comma",
+            "wording": 4,
+            "zJ_gap": 3.223782897958744
+          },
+          {
+            "ci_orderings": [
+              0.8494586498697387,
+              0.8494586498697387
+            ],
+            "class": "disordered_exact",
+            "dF0": 0.8494586498697387,
+            "format": "lines",
+            "wording": 4,
+            "zJ_gap": 3.5414355995116304
+          }
+        ]
+      },
+      "e7_ord32": {
+        "cell": "A_qwen0.6b_list_k0_e7_Tan_f0_allo32_N8",
+        "counts": {
+          "disordered": 9,
+          "exact": 0,
+          "ordered": 1,
+          "undetermined": 0
+        },
+        "dF0_mean": 0.4576680849263659,
+        "exposure": 7,
+        "n_orderings": 32,
+        "rows": [
+          {
+            "ci_orderings": [
+              -0.18271576497283504,
+              -0.13741082802935792
+            ],
+            "class": "disordered",
+            "dF0": -0.1616899144391004,
+            "format": "comma",
+            "wording": 0,
+            "zJ_gap": -0.1343739595892511
+          },
+          {
+            "ci_orderings": [
+              0.2174261794513771,
+              0.2770848473556825
+            ],
+            "class": "disordered",
+            "dF0": 0.24221652645428637,
+            "format": "lines",
+            "wording": 0,
+            "zJ_gap": 0.4042126643768916
+          },
+          {
+            "ci_orderings": [
+              0.18963114476217013,
+              0.24958373880423768
+            ],
+            "class": "disordered",
+            "dF0": 0.2193912034564871,
+            "format": "comma",
+            "wording": 1,
+            "zJ_gap": 0.001257554003748181
+          },
+          {
+            "ci_orderings": [
+              0.2180295738632293,
+              0.25329777598755154
+            ],
+            "class": "disordered",
+            "dF0": 0.23466863543208927,
+            "format": "lines",
+            "wording": 1,
+            "zJ_gap": 0.22579386576469188
+          },
+          {
+            "ci_orderings": [
+              0.7139244183603649,
+              0.7823777795867154
+            ],
+            "class": "disordered",
+            "dF0": 0.7492747310761105,
+            "format": "comma",
+            "wording": 2,
+            "zJ_gap": 1.3415803782466413
+          },
+          {
+            "ci_orderings": [
+              0.6720736319728998,
+              0.7179396974762164
+            ],
+            "class": "disordered",
+            "dF0": 0.6960814154194361,
+            "format": "lines",
+            "wording": 2,
+            "zJ_gap": 1.6002394557791986
+          },
+          {
+            "ci_orderings": [
+              0.6297874577067819,
+              0.7637917246016424
+            ],
+            "class": "disordered",
+            "dF0": 0.6975282692345264,
+            "format": "comma",
+            "wording": 3,
+            "zJ_gap": 2.108766713544959
+          },
+          {
+            "ci_orderings": [
+              1.064980833171969,
+              1.1584309465449276
+            ],
+            "class": "ordered",
+            "dF0": 1.1132432033739148,
+            "format": "lines",
+            "wording": 3,
+            "zJ_gap": 2.139242602822896
+          },
+          {
+            "ci_orderings": [
+              0.3962494275611128,
+              0.42154378296992145
+            ],
+            "class": "disordered",
+            "dF0": 0.4080144294127397,
+            "format": "comma",
+            "wording": 4,
+            "zJ_gap": 2.5908024262095664
+          },
+          {
+            "ci_orderings": [
+              0.35682375703956215,
+              0.4009150500983716
+            ],
+            "class": "disordered",
+            "dF0": 0.37795234984316917,
+            "format": "lines",
+            "wording": 4,
+            "zJ_gap": 2.4659936548967205
+          }
+        ]
+      },
+      "e7_ord8": {
+        "cell": "A_qwen0.6b_list_k0_e7_Tan_f0_all_N8",
+        "counts": {
+          "disordered": 9,
+          "exact": 0,
+          "ordered": 0,
+          "undetermined": 1
+        },
+        "dF0_mean": 0.4333401028426831,
+        "exposure": 7,
+        "n_orderings": 8,
+        "rows": [
+          {
+            "ci_orderings": [
+              -0.30732837932925805,
+              -0.12269298876825542
+            ],
+            "class": "disordered",
+            "dF0": -0.21908511424140187,
+            "format": "comma",
+            "wording": 0,
+            "zJ_gap": -0.1489718642467226
+          },
+          {
+            "ci_orderings": [
+              0.0768126009117881,
+              0.2660740744110934
+            ],
+            "class": "disordered",
+            "dF0": 0.1665176293613735,
+            "format": "lines",
+            "wording": 0,
+            "zJ_gap": 0.38636123577238873
+          },
+          {
+            "ci_orderings": [
+              0.14972893556979006,
+              0.31739139091593865
+            ],
+            "class": "disordered",
+            "dF0": 0.23642484498820338,
+            "format": "comma",
+            "wording": 1,
+            "zJ_gap": 0.011748796167991507
+          },
+          {
+            "ci_orderings": [
+              0.11579881002291015,
+              0.24002916691748247
+            ],
+            "class": "disordered",
+            "dF0": 0.1783887566181308,
+            "format": "lines",
+            "wording": 1,
+            "zJ_gap": 0.2126946593298044
+          },
+          {
+            "ci_orderings": [
+              0.6837995257688023,
+              0.9049884030198907
+            ],
+            "class": "disordered",
+            "dF0": 0.8061437986051079,
+            "format": "comma",
+            "wording": 2,
+            "zJ_gap": 1.365701846922936
+          },
+          {
+            "ci_orderings": [
+              0.6340351464066696,
+              0.7926044350945877
+            ],
+            "class": "disordered",
+            "dF0": 0.7055543147233001,
+            "format": "lines",
+            "wording": 2,
+            "zJ_gap": 1.600014571271084
+          },
+          {
+            "ci_orderings": [
+              0.3269226978003109,
+              0.8725070946301038
+            ],
+            "class": "disordered",
+            "dF0": 0.6065620641504399,
+            "format": "comma",
+            "wording": 3,
+            "zJ_gap": 2.079946060274957
+          },
+          {
+            "ci_orderings": [
+              0.8217560905953297,
+              1.208889168288027
+            ],
+            "class": "undetermined",
+            "dF0": 1.032148171478675,
+            "format": "lines",
+            "wording": 3,
+            "zJ_gap": 2.1115938640662373
+          },
+          {
+            "ci_orderings": [
+              0.358476887537873,
+              0.4838390960108379
+            ],
+            "class": "disordered",
+            "dF0": 0.42426116195259933,
+            "format": "comma",
+            "wording": 4,
+            "zJ_gap": 2.5930492433021177
+          },
+          {
+            "ci_orderings": [
+              0.3058160777982405,
+              0.4906956089716502
+            ],
+            "class": "disordered",
+            "dF0": 0.39648540079040284,
+            "format": "lines",
+            "wording": 4,
+            "zJ_gap": 2.484791305179511
+          }
+        ]
+      }
+    },
+    "qwen1.7b": {
+      "e10_ord32": {
+        "cell": "A_qwen1.7b_list_k0_e10_Tan_f0_allo32_N32",
+        "counts": {
+          "disordered": 2,
+          "exact": 0,
+          "ordered": 7,
+          "undetermined": 1
+        },
+        "dF0_mean": 1.394284814676516,
+        "exposure": 10,
+        "n_orderings": 32,
+        "rows": [
+          {
+            "ci_orderings": [
+              0.55664212151256,
+              0.9016444073690478
+            ],
+            "class": "disordered",
+            "dF0": 0.706037475425858,
+            "format": "comma",
+            "wording": 0,
+            "zJ_gap": 5.162180397727209
+          },
+          {
+            "ci_orderings": [
+              0.8152881922762895,
+              1.098137727301815
+            ],
+            "class": "undetermined",
+            "dF0": 0.9559986859075664,
+            "format": "lines",
+            "wording": 0,
+            "zJ_gap": 7.995525568181419
+          },
+          {
+            "ci_orderings": [
+              1.2344407549291643,
+              1.6279061291455397
+            ],
+            "class": "ordered",
+            "dF0": 1.4188126414960145,
+            "format": "comma",
+            "wording": 1,
+            "zJ_gap": 7.984374999990637
+          },
+          {
+            "ci_orderings": [
+              1.5350138560922821,
+              1.8132897257118197
+            ],
+            "class": "ordered",
+            "dF0": 1.674797404130901,
+            "format": "lines",
+            "wording": 1,
+            "zJ_gap": 10.159907670366373
+          },
+          {
+            "ci_orderings": [
+              1.5512918241609996,
+              1.8704399562404492
+            ],
+            "class": "ordered",
+            "dF0": 1.7125394111944248,
+            "format": "comma",
+            "wording": 2,
+            "zJ_gap": 12.089559659051826
+          },
+          {
+            "ci_orderings": [
+              1.572891882700933,
+              1.851499735230966
+            ],
+            "class": "ordered",
+            "dF0": 1.7263901803088455,
+            "format": "lines",
+            "wording": 2,
+            "zJ_gap": 12.024041193088644
+          },
+          {
+            "ci_orderings": [
+              1.7152161426155639,
+              1.97034786790172
+            ],
+            "class": "ordered",
+            "dF0": 1.8464980512022944,
+            "format": "comma",
+            "wording": 3,
+            "zJ_gap": 5.7951349430889865
+          },
+          {
+            "ci_orderings": [
+              0.7415189089914898,
+              0.992284683372674
+            ],
+            "class": "disordered",
+            "dF0": 0.8608852477659523,
+            "format": "lines",
+            "wording": 3,
+            "zJ_gap": 8.97230113438934
+          },
+          {
+            "ci_orderings": [
+              1.0391902986238017,
+              1.6179711721653334
+            ],
+            "class": "ordered",
+            "dF0": 1.3202361151548603,
+            "format": "comma",
+            "wording": 4,
+            "zJ_gap": 11.476207382928937
+          },
+          {
+            "ci_orderings": [
+              1.5321389697834364,
+              1.903171469893175
+            ],
+            "class": "ordered",
+            "dF0": 1.720652934178446,
+            "format": "lines",
+            "wording": 4,
+            "zJ_gap": 10.506676108493949
+          }
+        ]
+      },
+      "e2_ord8": {
+        "cell": "A_qwen1.7b_list_k0_e2_Tan_f0_all_N8",
+        "counts": {
+          "disordered": 10,
+          "exact": 10,
+          "ordered": 0,
+          "undetermined": 0
+        },
+        "dF0_mean": 0.8930050618946028,
+        "exposure": 2,
+        "n_orderings": 8,
+        "rows": [
+          {
+            "ci_orderings": [
+              0.9947719850433856,
+              0.9947719850433856
+            ],
+            "class": "disordered_exact",
+            "dF0": 0.9947719850433856,
+            "format": "comma",
+            "wording": 0,
+            "zJ_gap": 4.249999999999994
+          },
+          {
+            "ci_orderings": [
+              0.9886777072387609,
+              0.9886777072387609
+            ],
+            "class": "disordered_exact",
+            "dF0": 0.9886777072387609,
+            "format": "lines",
+            "wording": 0,
+            "zJ_gap": 3.124999999999994
+          },
+          {
+            "ci_orderings": [
+              0.9399133488519062,
+              0.9399133488519062
+            ],
+            "class": "disordered_exact",
+            "dF0": 0.9399133488519062,
+            "format": "comma",
+            "wording": 1,
+            "zJ_gap": 5.874999999964972
+          },
+          {
+            "ci_orderings": [
+              0.00669278266862694,
+              0.00669278266862694
+            ],
+            "class": "disordered_exact",
+            "dF0": 0.00669278266862694,
+            "format": "lines",
+            "wording": 1,
+            "zJ_gap": 2.87499999845178
+          },
+          {
+            "ci_orderings": [
+              0.9999952148942448,
+              0.9999952148942448
+            ],
+            "class": "disordered_exact",
+            "dF0": 0.9999952148942448,
+            "format": "comma",
+            "wording": 2,
+            "zJ_gap": 9.374999999992086
+          },
+          {
+            "ci_orderings": [
+              0.9999996939275002,
+              0.9999996939275002
+            ],
+            "class": "disordered_exact",
+            "dF0": 0.9999996939275002,
+            "format": "lines",
+            "wording": 2,
+            "zJ_gap": 9.374999999987347
+          },
+          {
+            "ci_orderings": [
+              0.9999998864912429,
+              0.9999998864912429
+            ],
+            "class": "disordered_exact",
+            "dF0": 0.9999998864912429,
+            "format": "comma",
+            "wording": 3,
+            "zJ_gap": 9.187499999974081
+          },
+          {
+            "ci_orderings": [
+              0.9999999999316111,
+              0.9999999999316111
+            ],
+            "class": "disordered_exact",
+            "dF0": 0.9999999999316111,
+            "format": "lines",
+            "wording": 3,
+            "zJ_gap": 12.312499995667936
+          },
+          {
+            "ci_orderings": [
+              0.9999999999116271,
+              0.9999999999116271
+            ],
+            "class": "disordered_exact",
+            "dF0": 0.9999999999116271,
+            "format": "comma",
+            "wording": 4,
+            "zJ_gap": 12.187499999027832
+          },
+          {
+            "ci_orderings": [
+              0.9999999999871223,
+              0.9999999999871223
+            ],
+            "class": "disordered_exact",
+            "dF0": 0.9999999999871223,
+            "format": "lines",
+            "wording": 4,
+            "zJ_gap": 12.874999999809928
+          }
+        ]
+      },
+      "e30_ord32": {
+        "cell": "A_qwen1.7b_list_k0_e30_Tan_f0_allo32_N32",
+        "counts": {
+          "disordered": 2,
+          "exact": 0,
+          "ordered": 5,
+          "undetermined": 3
+        },
+        "dF0_mean": 1.348173378440509,
+        "exposure": 30,
+        "n_orderings": 32,
+        "rows": [
+          {
+            "ci_orderings": [
+              0.19911849547683824,
+              0.3180654132130116
+            ],
+            "class": "disordered",
+            "dF0": 0.24614978758774608,
+            "format": "comma",
+            "wording": 0,
+            "zJ_gap": 7.032185609878803
+          },
+          {
+            "ci_orderings": [
+              0.8621297572187769,
+              1.1909071908141053
+            ],
+            "class": "undetermined",
+            "dF0": 1.0252753713885232,
+            "format": "lines",
+            "wording": 0,
+            "zJ_gap": 8.5507371471756
+          },
+          {
+            "ci_orderings": [
+              1.2098830112446946,
+              1.5908435014135025
+            ],
+            "class": "ordered",
+            "dF0": 1.406059405310578,
+            "format": "comma",
+            "wording": 1,
+            "zJ_gap": 5.490269026820831
+          },
+          {
+            "ci_orderings": [
+              0.5155307766198103,
+              0.7742294450856779
+            ],
+            "class": "disordered",
+            "dF0": 0.6401414861251231,
+            "format": "lines",
+            "wording": 1,
+            "zJ_gap": 7.519247660381464
+          },
+          {
+            "ci_orderings": [
+              1.8034517863277228,
+              2.453640173040214
+            ],
+            "class": "ordered",
+            "dF0": 2.114763208482251,
+            "format": "comma",
+            "wording": 2,
+            "zJ_gap": 9.420463709600142
+          },
+          {
+            "ci_orderings": [
+              1.700891239554317,
+              2.14104480746112
+            ],
+            "class": "ordered",
+            "dF0": 1.9090910917218817,
+            "format": "lines",
+            "wording": 2,
+            "zJ_gap": 10.658357484670907
+          },
+          {
+            "ci_orderings": [
+              0.9079599687196321,
+              1.2597825554307578
+            ],
+            "class": "undetermined",
+            "dF0": 1.0818283419233854,
+            "format": "comma",
+            "wording": 3,
+            "zJ_gap": 3.958182648393407
+          },
+          {
+            "ci_orderings": [
+              2.0889878945699185,
+              2.5484219337534304
+            ],
+            "class": "ordered",
+            "dF0": 2.3338200345202065,
+            "format": "lines",
+            "wording": 3,
+            "zJ_gap": 6.979147230665021
+          },
+          {
+            "ci_orderings": [
+              0.6305295932859251,
+              1.3861686229296037
+            ],
+            "class": "undetermined",
+            "dF0": 1.0160227180106007,
+            "format": "comma",
+            "wording": 4,
+            "zJ_gap": 6.983321256388559
+          },
+          {
+            "ci_orderings": [
+              1.3793334424885701,
+              2.0527926373940657
+            ],
+            "class": "ordered",
+            "dF0": 1.7085823393347965,
+            "format": "lines",
+            "wording": 4,
+            "zJ_gap": 10.657919595569457
+          }
+        ]
+      },
+      "e4_ord8": {
+        "cell": "A_qwen1.7b_list_k0_e4_Tan_f0_all_N8",
+        "counts": {
+          "disordered": 2,
+          "exact": 10,
+          "ordered": 8,
+          "undetermined": 0
+        },
+        "dF0_mean": 1.1473385065204345,
+        "exposure": 4,
+        "n_orderings": 8,
+        "rows": [
+          {
+            "ci_orderings": [
+              0.8097983217464355,
+              0.8097983217464355
+            ],
+            "class": "disordered_exact",
+            "dF0": 0.8097983217464355,
+            "format": "comma",
+            "wording": 0,
+            "zJ_gap": 4.1624999999999845
+          },
+          {
+            "ci_orderings": [
+              1.232288266173609,
+              1.232288266173609
+            ],
+            "class": "ordered_exact",
+            "dF0": 1.232288266173609,
+            "format": "lines",
+            "wording": 0,
+            "zJ_gap": 9.137499999999443
+          },
+          {
+            "ci_orderings": [
+              1.3713023961803295,
+              1.3713023961803295
+            ],
+            "class": "ordered_exact",
+            "dF0": 1.3713023961803295,
+            "format": "comma",
+            "wording": 1,
+            "zJ_gap": 9.893749999940425
+          },
+          {
+            "ci_orderings": [
+              1.012669096837615,
+              1.012669096837615
+            ],
+            "class": "ordered_exact",
+            "dF0": 1.012669096837615,
+            "format": "lines",
+            "wording": 1,
+            "zJ_gap": 8.281249999743121
+          },
+          {
+            "ci_orderings": [
+              0.9984419072850415,
+              0.9984419072850415
+            ],
+            "class": "disordered_exact",
+            "dF0": 0.9984419072850415,
+            "format": "comma",
+            "wording": 2,
+            "zJ_gap": 12.27499999993008
+          },
+          {
+            "ci_orderings": [
+              1.374525855566966,
+              1.374525855566966
+            ],
+            "class": "ordered_exact",
+            "dF0": 1.374525855566966,
+            "format": "lines",
+            "wording": 2,
+            "zJ_gap": 12.618749999908411
+          },
+          {
+            "ci_orderings": [
+              1.3761615712498676,
+              1.3761615712498676
+            ],
+            "class": "ordered_exact",
+            "dF0": 1.3761615712498676,
+            "format": "comma",
+            "wording": 3,
+            "zJ_gap": 7.862499999913885
+          },
+          {
+            "ci_orderings": [
+              1.1284112751158704,
+              1.1284112751158704
+            ],
+            "class": "ordered_exact",
+            "dF0": 1.1284112751158704,
+            "format": "lines",
+            "wording": 3,
+            "zJ_gap": 12.143749995893895
+          },
+          {
+            "ci_orderings": [
+              1.0000161900758364,
+              1.0000161900758364
+            ],
+            "class": "ordered_exact",
+            "dF0": 1.0000161900758364,
+            "format": "comma",
+            "wording": 4,
+            "zJ_gap": 13.043749998021914
+          },
+          {
+            "ci_orderings": [
+              1.1697701849727737,
+              1.1697701849727737
+            ],
+            "class": "ordered_exact",
+            "dF0": 1.1697701849727737,
+            "format": "lines",
+            "wording": 4,
+            "zJ_gap": 12.312499998120378
+          }
+        ]
+      },
+      "e7_ord32": {
+        "cell": "A_qwen1.7b_list_k0_e7_Tan_f0_allo32_N8",
+        "counts": {
+          "disordered": 1,
+          "exact": 0,
+          "ordered": 8,
+          "undetermined": 1
+        },
+        "dF0_mean": 1.4487536056106975,
+        "exposure": 7,
+        "n_orderings": 32,
+        "rows": [
+          {
+            "ci_orderings": [
+              0.8731840626795689,
+              0.9349162871687411
+            ],
+            "class": "disordered",
+            "dF0": 0.9016480097318036,
+            "format": "comma",
+            "wording": 0,
+            "zJ_gap": 6.390671502976142
+          },
+          {
+            "ci_orderings": [
+              1.1482955677813156,
+              1.2423583415193533
+            ],
+            "class": "ordered",
+            "dF0": 1.1919155225403877,
+            "format": "lines",
+            "wording": 0,
+            "zJ_gap": 8.331077938987681
+          },
+          {
+            "ci_orderings": [
+              1.3864568340382633,
+              1.5604204047250518
+            ],
+            "class": "ordered",
+            "dF0": 1.480405343837199,
+            "format": "comma",
+            "wording": 1,
+            "zJ_gap": 9.239141555043005
+          },
+          {
+            "ci_orderings": [
+              1.4867818410523592,
+              1.628866468643575
+            ],
+            "class": "ordered",
+            "dF0": 1.5503721436715967,
+            "format": "lines",
+            "wording": 1,
+            "zJ_gap": 11.646949404661902
+          },
+          {
+            "ci_orderings": [
+              1.6806214345576471,
+              1.8403800081622095
+            ],
+            "class": "ordered",
+            "dF0": 1.7590090906000055,
+            "format": "comma",
+            "wording": 2,
+            "zJ_gap": 13.435267856871683
+          },
+          {
+            "ci_orderings": [
+              1.699681397399719,
+              1.8703813533623714
+            ],
+            "class": "ordered",
+            "dF0": 1.7869644927626105,
+            "format": "lines",
+            "wording": 2,
+            "zJ_gap": 13.917224701900986
+          },
+          {
+            "ci_orderings": [
+              1.7658827217693769,
+              1.8756036450523483
+            ],
+            "class": "ordered",
+            "dF0": 1.8216994335767955,
+            "format": "comma",
+            "wording": 3,
+            "zJ_gap": 6.8894391740114616
+          },
+          {
+            "ci_orderings": [
+              1.246029243956906,
+              1.3586664405189768
+            ],
+            "class": "ordered",
+            "dF0": 1.2979060601342463,
+            "format": "lines",
+            "wording": 3,
+            "zJ_gap": 10.899995341858455
+          },
+          {
+            "ci_orderings": [
+              0.9405543521917581,
+              1.20389465716092
+            ],
+            "class": "undetermined",
+            "dF0": 1.070359454203862,
+            "format": "comma",
+            "wording": 4,
+            "zJ_gap": 12.336751300639659
+          },
+          {
+            "ci_orderings": [
+              1.5263764326548523,
+              1.7264894273495839
+            ],
+            "class": "ordered",
+            "dF0": 1.6272565050484689,
+            "format": "lines",
+            "wording": 4,
+            "zJ_gap": 13.297967795709198
+          }
+        ]
+      },
+      "e7_ord8": {
+        "cell": "A_qwen1.7b_list_k0_e7_Tan_f0_all_N8",
+        "counts": {
+          "disordered": 0,
+          "exact": 0,
+          "ordered": 8,
+          "undetermined": 2
+        },
+        "dF0_mean": 1.4650724656292133,
+        "exposure": 7,
+        "n_orderings": 8,
+        "rows": [
+          {
+            "ci_orderings": [
+              0.7239769102719285,
+              1.3823069221692157
+            ],
+            "class": "undetermined",
+            "dF0": 1.0550703495221248,
+            "format": "comma",
+            "wording": 0,
+            "zJ_gap": 6.454148065476154
+          },
+          {
+            "ci_orderings": [
+              1.009665561804138,
+              1.451521251142951
+            ],
+            "class": "ordered",
+            "dF0": 1.243324614126906,
+            "format": "lines",
+            "wording": 0,
+            "zJ_gap": 8.339471726190064
+          },
+          {
+            "ci_orderings": [
+              1.1221587777826003,
+              1.5252923366794733
+            ],
+            "class": "ordered",
+            "dF0": 1.3384664634458199,
+            "format": "comma",
+            "wording": 1,
+            "zJ_gap": 9.271298363077145
+          },
+          {
+            "ci_orderings": [
+              1.5403610206989327,
+              1.6573911922617701
+            ],
+            "class": "ordered",
+            "dF0": 1.60949039392011,
+            "format": "lines",
+            "wording": 1,
+            "zJ_gap": 11.76748511894909
+          },
+          {
+            "ci_orderings": [
+              1.487082448630439,
+              1.747781954178476
+            ],
+            "class": "ordered",
+            "dF0": 1.616430547976,
+            "format": "comma",
+            "wording": 2,
+            "zJ_gap": 13.568452380681132
+          },
+          {
+            "ci_orderings": [
+              1.6622028299914244,
+              1.9827264461836358
+            ],
+            "class": "ordered",
+            "dF0": 1.8099976457952582,
+            "format": "lines",
+            "wording": 2,
+            "zJ_gap": 13.98549107094826
+          },
+          {
+            "ci_orderings": [
+              1.5491140691429317,
+              1.774448520141844
+            ],
+            "class": "ordered",
+            "dF0": 1.6554923692130297,
+            "format": "comma",
+            "wording": 3,
+            "zJ_gap": 6.877976190375701
+          },
+          {
+            "ci_orderings": [
+              0.977077707860402,
+              1.538779781411162
+            ],
+            "class": "undetermined",
+            "dF0": 1.28230227590731,
+            "format": "lines",
+            "wording": 3,
+            "zJ_gap": 10.914713533822743
+          },
+          {
+            "ci_orderings": [
+              1.0021676965309978,
+              1.6987546816746024
+            ],
+            "class": "ordered",
+            "dF0": 1.3318669120121474,
+            "format": "comma",
+            "wording": 4,
+            "zJ_gap": 12.682105653315082
+          },
+          {
+            "ci_orderings": [
+              1.428672036142442,
+              1.9666530298757117
+            ],
+            "class": "ordered",
+            "dF0": 1.7082830843734298,
+            "format": "lines",
+            "wording": 4,
+            "zJ_gap": 13.452473934080196
+          }
+        ]
+      }
+    }
+  }
+}
