@@ -1,0 +1,96 @@
+{
+  "N": 200,
+  "exposure": 4,
+  "manifest": {
+    "commit": "7b4334aae79d9c296860822b2c332c597c2cc951",
+    "config": {
+      "N": 200,
+      "exposure": 4,
+      "models": "qwen0.6b,qwen1.7b",
+      "near_critical": 0.1,
+      "out": "results/phase_a/mf_dynamics_check_nearcrit.json",
+      "results": "results/phase_a",
+      "rounds": 600,
+      "sector": "sym",
+      "seeds": 30
+    },
+    "hardware": {
+      "cpu_count": 16,
+      "machine": "AMD64",
+      "numpy": "2.3.5",
+      "platform": "Windows-11-10.0.26200-SP0",
+      "python": "3.12.10",
+      "scipy": "1.17.0",
+      "torch": "2.13.0+cpu",
+      "torch_threads": 8,
+      "transformers": "4.56.0"
+    },
+    "seeds": [
+      21
+    ],
+    "timestamp": "2026-09-22T12:49:46+00:00"
+  },
+  "models": {
+    "qwen0.6b": {
+      "agreement": "0/1",
+      "rows": [
+        {
+          "abs_m_final": 0.32985333333333333,
+          "abs_m_sd_seeds": 0.09364932013057829,
+          "agree": false,
+          "dF0_sym": 0.9829064606631244,
+          "format": "lines",
+          "frac_seeds_positive": 0.2,
+          "m_signed_final_mean": -0.11336,
+          "observed": "intermediate",
+          "predicted": "disordered",
+          "wording": 2
+        }
+      ]
+    },
+    "qwen1.7b": {
+      "agreement": "2/3",
+      "rows": [
+        {
+          "abs_m_final": 0.9912633333333335,
+          "abs_m_sd_seeds": 0.012556375859006581,
+          "agree": true,
+          "dF0_sym": 1.012669096837615,
+          "format": "lines",
+          "frac_seeds_positive": 0.4,
+          "m_signed_final_mean": -0.20010666666666663,
+          "observed": "ordered",
+          "predicted": "ordered",
+          "wording": 1
+        },
+        {
+          "abs_m_final": 0.9834983333333334,
+          "abs_m_sd_seeds": 0.09038335069764417,
+          "agree": false,
+          "dF0_sym": 0.9984419072850415,
+          "format": "comma",
+          "frac_seeds_positive": 0.43333333333333335,
+          "m_signed_final_mean": -0.1610083333333333,
+          "observed": "ordered",
+          "predicted": "disordered",
+          "wording": 2
+        },
+        {
+          "abs_m_final": 1.0,
+          "abs_m_sd_seeds": 0.0,
+          "agree": true,
+          "dF0_sym": 1.0000161900758364,
+          "format": "comma",
+          "frac_seeds_positive": 0.43333333333333335,
+          "m_signed_final_mean": -0.13333333333333333,
+          "observed": "ordered",
+          "predicted": "ordered",
+          "wording": 4
+        }
+      ]
+    }
+  },
+  "rounds": 600,
+  "sector": "sym",
+  "seeds": 30
+}

@@ -1,0 +1,12 @@
+# Shared formulations for every Phase A cell (design notes §16, decision of
+# 2026-09-09): five wordings x two list formats, identical across cells so
+# that comparisons between knob levels are paired by formulation. The
+# "count" channel ignores the list format (one formulation per wording).
+# Slots: {a} {b} {peers} {memory} {n_peers}. {memory} is empty at k_mem = 0.
+formats: [comma, lines]
+wordings:
+  - "Player 1 is one of several players. Each player holds a state, either {a} or {b}. Player 1 sees {n_peers} other players and their states are: {peers}.{memory} Answer with the state Player 1 should hold now, as JSON with a single key \"state\"."
+  - "In this game every player has a state, {a} or {b}. Player 1 can see the states of {n_peers} other players: {peers}.{memory} Reply with the state that Player 1 takes now, in JSON with the key \"state\"."
+  - "Player 1 takes part in a game where each participant holds one of two states, {a} or {b}. The states of the {n_peers} players Player 1 can see are: {peers}.{memory} Give the state Player 1 should adopt now as a JSON object with the single key \"state\"."
+  - "Each player in the game is in state {a} or in state {b}. Player 1 observes {n_peers} other players with these states: {peers}.{memory} State Player 1 should now be in, as JSON with one key called \"state\"."
+  - "Consider Player 1 among a group of players whose state is either {a} or {b}. The current states of the {n_peers} players visible to Player 1 read: {peers}.{memory} Output the state Player 1 holds now as JSON containing only the key \"state\"."

@@ -1,0 +1,26 @@
+=== new wordings B/A queue start 30/09/2026 12:04:43,12 
+cell A_qwen0.6b_list_k0_e4_Tan_f0_allnwba_N8
+  A_qwen0.6b_list_k0_e4_Tan_f0_allnwba_N8 w0 comma: 16 passes, 20 s
+  A_qwen0.6b_list_k0_e4_Tan_f0_allnwba_N8 w0 lines: 16 passes, 41 s
+  A_qwen0.6b_list_k0_e4_Tan_f0_allnwba_N8 w1 comma: 16 passes, 61 s
+  A_qwen0.6b_list_k0_e4_Tan_f0_allnwba_N8 w1 lines: 16 passes, 82 s
+  A_qwen0.6b_list_k0_e4_Tan_f0_allnwba_N8 w2 comma: 16 passes, 101 s
+  A_qwen0.6b_list_k0_e4_Tan_f0_allnwba_N8 w2 lines: 16 passes, 121 s
+  A_qwen0.6b_list_k0_e4_Tan_f0_allnwba_N8 w3 comma: 16 passes, 140 s
+  A_qwen0.6b_list_k0_e4_Tan_f0_allnwba_N8 w3 lines: 16 passes, 162 s
+  A_qwen0.6b_list_k0_e4_Tan_f0_allnwba_N8 w4 comma: 16 passes, 181 s
+  A_qwen0.6b_list_k0_e4_Tan_f0_allnwba_N8 w4 lines: 16 passes, 202 s
+=== 0.6B done 12:08:55,48 
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:00<00:00,  3.14it/s]Loading checkpoint shards: 100%|██████████| 2/2 [00:00<00:00,  6.27it/s]
+cell A_qwen1.7b_list_k0_e4_Tan_f0_allnwba_N8
+  A_qwen1.7b_list_k0_e4_Tan_f0_allnwba_N8 w0 comma: 16 passes, 21 s
+  A_qwen1.7b_list_k0_e4_Tan_f0_allnwba_N8 w0 lines: 16 passes, 42 s
+  A_qwen1.7b_list_k0_e4_Tan_f0_allnwba_N8 w1 comma: 16 passes, 62 s
+  A_qwen1.7b_list_k0_e4_Tan_f0_allnwba_N8 w1 lines: 16 passes, 83 s
+  A_qwen1.7b_list_k0_e4_Tan_f0_allnwba_N8 w2 comma: 16 passes, 99 s
+  A_qwen1.7b_list_k0_e4_Tan_f0_allnwba_N8 w2 lines: 16 passes, 117 s
+  A_qwen1.7b_list_k0_e4_Tan_f0_allnwba_N8 w3 comma: 16 passes, 135 s
+  A_qwen1.7b_list_k0_e4_Tan_f0_allnwba_N8 w3 lines: 16 passes, 154 s
+  A_qwen1.7b_list_k0_e4_Tan_f0_allnwba_N8 w4 comma: 16 passes, 171 s
+  A_qwen1.7b_list_k0_e4_Tan_f0_allnwba_N8 w4 lines: 16 passes, 190 s
+=== queue end 30/09/2026 12:12:18,71 

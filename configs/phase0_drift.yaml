@@ -1,0 +1,5 @@
+# Phase 0, check C: neutral voter model on the complete graph (§10.21)
+seed: 7
+N_values: [8, 16, 32, 64, 128]
+runs: 200
+n_boot: 500

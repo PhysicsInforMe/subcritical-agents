@@ -1,0 +1,11 @@
+# Phase 0, check A: 2D Ising calibration (design notes §5 week 1, §14.1 B9)
+L_values: [8, 12, 16, 24, 32]        # even only (§11.5)
+T_fine: {start: 2.10, stop: 2.60, num: 26}   # window for peaks (L=8 peaks near 2.5) and Binder crossings
+T_coarse: [1.6, 1.8, 2.0, 2.8, 3.0, 3.5] # shape of the curves
+seeds: [1, 2, 3, 4, 5, 6, 7, 8]
+algorithm: sw                         # Swendsen-Wang for equilibrium sampling near T_c
+n_equil: 1500
+n_meas: 6000
+thin: 2
+n_boot: 500
+workers: 14

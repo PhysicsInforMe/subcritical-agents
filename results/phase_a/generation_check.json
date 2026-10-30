@@ -1,0 +1,1186 @@
+{
+  "models": {
+    "qwen0.6b": {
+      "manifest": {
+        "commit": "83056fa8c6a134a0315bec171accb577f98cd78f",
+        "config": {
+          "T": 0.7,
+          "exposure": 4,
+          "max_new_tokens": 12,
+          "model": "qwen0.6b",
+          "n": 100,
+          "out": "results/phase_a/generation_check.json",
+          "threads": 8,
+          "wordings": "0,4"
+        },
+        "hardware": {
+          "cpu_count": 16,
+          "machine": "AMD64",
+          "numpy": "2.3.5",
+          "platform": "Windows-11-10.0.26200-SP0",
+          "python": "3.12.10",
+          "scipy": "1.17.0",
+          "torch": "2.13.0+cpu",
+          "torch_threads": 8,
+          "transformers": "4.56.0"
+        },
+        "seeds": [
+          0
+        ],
+        "timestamp": "2026-09-23T13:39:13+00:00"
+      },
+      "rows": [
+        {
+          "examples_unparsed": [],
+          "freq_A": 0.84,
+          "gap": 1.773927585445349,
+          "k": -4,
+          "n": 100,
+          "n_parsed": 100,
+          "p_table_T": 0.9265036516866055,
+          "states": [
+            -1,
+            -1,
+            -1,
+            -1
+          ],
+          "wording": 0
+        },
+        {
+          "examples_unparsed": [],
+          "freq_A": 0.66,
+          "gap": 0.7234050844051689,
+          "k": -2,
+          "n": 100,
+          "n_parsed": 100,
+          "p_table_T": 0.7375814616596652,
+          "states": [
+            -1,
+            -1,
+            -1,
+            1
+          ],
+          "wording": 0
+        },
+        {
+          "examples_unparsed": [],
+          "freq_A": 0.56,
+          "gap": 0.23748100528772453,
+          "k": -2,
+          "n": 100,
+          "n_parsed": 100,
+          "p_table_T": 0.5840104116715242,
+          "states": [
+            -1,
+            -1,
+            1,
+            -1
+          ],
+          "wording": 0
+        },
+        {
+          "examples_unparsed": [],
+          "freq_A": 0.82,
+          "gap": 0.9354369035098136,
+          "k": -2,
+          "n": 100,
+          "n_parsed": 100,
+          "p_table_T": 0.7918871532876817,
+          "states": [
+            -1,
+            1,
+            -1,
+            -1
+          ],
+          "wording": 0
+        },
+        {
+          "examples_unparsed": [],
+          "freq_A": 0.59,
+          "gap": 0.36637192858194,
+          "k": -2,
+          "n": 100,
+          "n_parsed": 100,
+          "p_table_T": 0.6279397618104785,
+          "states": [
+            1,
+            -1,
+            -1,
+            -1
+          ],
+          "wording": 0
+        },
+        {
+          "examples_unparsed": [],
+          "freq_A": 0.56,
+          "gap": 0.20819119534765385,
+          "k": 0,
+          "n": 100,
+          "n_parsed": 100,
+          "p_table_T": 0.5738107137274648,
+          "states": [
+            -1,
+            -1,
+            1,
+            1
+          ],
+          "wording": 0
+        },
+        {
+          "examples_unparsed": [],
+          "freq_A": 0.63,
+          "gap": 0.4148739805833882,
+          "k": 0,
+          "n": 100,
+          "n_parsed": 100,
+          "p_table_T": 0.6439791641844841,
+          "states": [
+            -1,
+            1,
+            -1,
+            1
+          ],
+          "wording": 0
+        },
+        {
+          "examples_unparsed": [],
+          "freq_A": 0.79,
+          "gap": 0.636642525715714,
+          "k": 0,
+          "n": 100,
+          "n_parsed": 100,
+          "p_table_T": 0.7128956509642271,
+          "states": [
+            -1,
+            1,
+            1,
+            -1
+          ],
+          "wording": 0
+        },
+        {
+          "examples_unparsed": [],
+          "freq_A": 0.74,
+          "gap": 0.5413226110186193,
+          "k": 0,
+          "n": 100,
+          "n_parsed": 100,
+          "p_table_T": 0.6842382097221271,
+          "states": [
+            1,
+            -1,
+            -1,
+            1
+          ],
+          "wording": 0
+        },
+        {
+          "examples_unparsed": [],
+          "freq_A": 0.58,
+          "gap": 0.3577030881057749,
+          "k": 0,
+          "n": 100,
+          "n_parsed": 100,
+          "p_table_T": 0.6250419024572654,
+          "states": [
+            1,
+            -1,
+            1,
+            -1
+          ],
+          "wording": 0
+        },
+        {
+          "examples_unparsed": [],
+          "freq_A": 0.82,
+          "gap": 0.7138575725955374,
+          "k": 0,
+          "n": 100,
+          "n_parsed": 100,
+          "p_table_T": 0.734932964526288,
+          "states": [
+            1,
+            1,
+            -1,
+            -1
+          ],
+          "wording": 0
+        },
+        {
+          "examples_unparsed": [],
+          "freq_A": 0.7,
+          "gap": 0.3285017866733222,
+          "k": 2,
+          "n": 100,
+          "n_parsed": 100,
+          "p_table_T": 0.6152152848304704,
+          "states": [
+            -1,
+            1,
+            1,
+            1
+          ],
+          "wording": 0
+        },
+        {
+          "examples_unparsed": [],
+          "freq_A": 0.69,
+          "gap": 0.29814646921911625,
+          "k": 2,
+          "n": 100,
+          "n_parsed": 100,
+          "p_table_T": 0.6048998254756401,
+          "states": [
+            1,
+            -1,
+            1,
+            1
+          ],
+          "wording": 0
+        },
+        {
+          "examples_unparsed": [],
+          "freq_A": 0.85,
+          "gap": 0.9444740706539738,
+          "k": 2,
+          "n": 100,
+          "n_parsed": 100,
+          "p_table_T": 0.7940067681804843,
+          "states": [
+            1,
+            1,
+            -1,
+            1
+          ],
+          "wording": 0
+        },
+        {
+          "examples_unparsed": [],
+          "freq_A": 0.9,
+          "gap": 0.7848876011347494,
+          "k": 2,
+          "n": 100,
+          "n_parsed": 100,
+          "p_table_T": 0.7542238419741261,
+          "states": [
+            1,
+            1,
+            1,
+            -1
+          ],
+          "wording": 0
+        },
+        {
+          "examples_unparsed": [],
+          "freq_A": 1.0,
+          "gap": 2.4837741537569475,
+          "k": 4,
+          "n": 100,
+          "n_parsed": 100,
+          "p_table_T": 0.9720298540048802,
+          "states": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "wording": 0
+        },
+        {
+          "examples_unparsed": [
+            "Based on the current state of the 4 visible players being",
+            "Based on the current states of the 4 players visible to",
+            "- The state of the visible players are: **B,"
+          ],
+          "freq_A": 0.23636363636363636,
+          "gap": -2.4494188309087317,
+          "k": -4,
+          "n": 100,
+          "n_parsed": 55,
+          "p_table_T": 0.02933586286796773,
+          "states": [
+            -1,
+            -1,
+            -1,
+            -1
+          ],
+          "wording": 4
+        },
+        {
+          "examples_unparsed": [
+            "If Player 1 is among the group of players whose visible",
+            "The current states of the visible players are: **B,",
+            "The state of Player 1 is **A**. \n\n"
+          ],
+          "freq_A": 0.9107142857142857,
+          "gap": 0.8257568080753579,
+          "k": -2,
+          "n": 100,
+          "n_parsed": 56,
+          "p_table_T": 0.7648853315064816,
+          "states": [
+            -1,
+            -1,
+            -1,
+            1
+          ],
+          "wording": 4
+        },
+        {
+          "examples_unparsed": [
+            "The current states of the 4 players visible to Player ",
+            "Based on the visible states: **B, B, A",
+            "Based on the visible state of the players: `B,"
+          ],
+          "freq_A": 0.625,
+          "gap": -0.4282122818543259,
+          "k": -2,
+          "n": 100,
+          "n_parsed": 24,
+          "p_table_T": 0.3516642450941812,
+          "states": [
+            -1,
+            -1,
+            1,
+            -1
+          ],
+          "wording": 4
+        },
+        {
+          "examples_unparsed": [
+            "- The current states of the 4 players visible to Player",
+            "Based on the given visible states: **B, A,",
+            "Based on the current state of the visible players: **B"
+          ],
+          "freq_A": 1.0,
+          "gap": 1.2401388938849194,
+          "k": -2,
+          "n": 100,
+          "n_parsed": 12,
+          "p_table_T": 0.854659886642995,
+          "states": [
+            -1,
+            1,
+            -1,
+            -1
+          ],
+          "wording": 4
+        },
+        {
+          "examples_unparsed": [
+            "Based on the state of the visible players: **A,",
+            "To determine the state of **Player 1**, we need",
+            "Based on the current states of the 4 players visible to"
+          ],
+          "freq_A": 0.9666666666666667,
+          "gap": 1.9687885698494518,
+          "k": -2,
+          "n": 100,
+          "n_parsed": 30,
+          "p_table_T": 0.9433505193139329,
+          "states": [
+            1,
+            -1,
+            -1,
+            -1
+          ],
+          "wording": 4
+        },
+        {
+          "examples_unparsed": [
+            "Based on the given state of the 4 players visible to",
+            "Based on the current states of the 4 players visible to",
+            "If Player 1 is among the four visible players whose current"
+          ],
+          "freq_A": 0.9285714285714286,
+          "gap": 1.6153327337531238,
+          "k": 0,
+          "n": 100,
+          "n_parsed": 28,
+          "p_table_T": 0.9095060120390277,
+          "states": [
+            -1,
+            -1,
+            1,
+            1
+          ],
+          "wording": 4
+        },
+        {
+          "examples_unparsed": [
+            "- The current states of the 4 players visible to Player",
+            "Based on the state of the 4 players visible to Player",
+            "Based on the visible states of the 4 players: **"
+          ],
+          "freq_A": 0.9090909090909091,
+          "gap": 1.5095044684042,
+          "k": 0,
+          "n": 100,
+          "n_parsed": 11,
+          "p_table_T": 0.8962685698733208,
+          "states": [
+            -1,
+            1,
+            -1,
+            1
+          ],
+          "wording": 4
+        },
+        {
+          "examples_unparsed": [
+            "Based on the state of the visible players: **B,",
+            "To determine the state of **Player 1**, we analyze",
+            "Based on the current states of the 4 players visible to"
+          ],
+          "freq_A": 0.96,
+          "gap": 1.9585988586184935,
+          "k": 0,
+          "n": 100,
+          "n_parsed": 25,
+          "p_table_T": 0.9425675638696689,
+          "states": [
+            -1,
+            1,
+            1,
+            -1
+          ],
+          "wording": 4
+        },
+        {
+          "examples_unparsed": [
+            "Based on the visible state of the players: A, B",
+            "Based on the current states of the visible players: **A",
+            "The state of Player 1 is **A**. \n\n"
+          ],
+          "freq_A": 1.0,
+          "gap": 3.6566339189944674,
+          "k": 0,
+          "n": 100,
+          "n_parsed": 23,
+          "p_table_T": 0.9946418435250436,
+          "states": [
+            1,
+            -1,
+            -1,
+            1
+          ],
+          "wording": 4
+        },
+        {
+          "examples_unparsed": [
+            "Based on the visible state of the players: **A,",
+            "Given the current state of the 4 players visible to Player",
+            "- The current states of the 4 players visible to Player"
+          ],
+          "freq_A": 1.0,
+          "gap": 3.020448216010434,
+          "k": 0,
+          "n": 100,
+          "n_parsed": 51,
+          "p_table_T": 0.98680879558909,
+          "states": [
+            1,
+            -1,
+            1,
+            -1
+          ],
+          "wording": 4
+        },
+        {
+          "examples_unparsed": [
+            "The current state of Player 1 among the group is **",
+            "The state of Player 1 is **A**. \n\n",
+            "Based on the current states of the 4 players visible to"
+          ],
+          "freq_A": 1.0,
+          "gap": 5.009752826761276,
+          "k": 0,
+          "n": 100,
+          "n_parsed": 78,
+          "p_table_T": 0.9992210541306952,
+          "states": [
+            1,
+            1,
+            -1,
+            -1
+          ],
+          "wording": 4
+        },
+        {
+          "examples_unparsed": [
+            "The state of Player 1 is **A**. \n\n",
+            "Based on the states of the visible players (B, A",
+            "Based on the state of the 4 players visible to Player"
+          ],
+          "freq_A": 1.0,
+          "gap": 2.6193327931457593,
+          "k": 2,
+          "n": 100,
+          "n_parsed": 41,
+          "p_table_T": 0.9768401758055106,
+          "states": [
+            -1,
+            1,
+            1,
+            1
+          ],
+          "wording": 4
+        },
+        {
+          "examples_unparsed": [
+            "- The visible states are: A, B, A,",
+            "The current state of the players visible to Player 1 is",
+            "The visible state of the players is: A, B,"
+          ],
+          "freq_A": 0.972972972972973,
+          "gap": 3.2514257634174903,
+          "k": 2,
+          "n": 100,
+          "n_parsed": 37,
+          "p_table_T": 0.9904809346165896,
+          "states": [
+            1,
+            -1,
+            1,
+            1
+          ],
+          "wording": 4
+        },
+        {
+          "examples_unparsed": [
+            "Based on the visible states of the players: `A,",
+            "Based on the current states of the 4 players visible to",
+            "The state of Player 1 is **A**.  \n\n"
+          ],
+          "freq_A": 1.0,
+          "gap": 6.66499431322797,
+          "k": 2,
+          "n": 100,
+          "n_parsed": 79,
+          "p_table_T": 0.9999267398468638,
+          "states": [
+            1,
+            1,
+            -1,
+            1
+          ],
+          "wording": 4
+        },
+        {
+          "examples_unparsed": [
+            "The current state of Player 1 is **A**.",
+            "- The visible players are: A, A, A,",
+            "Based on the given states: A, A, A,"
+          ],
+          "freq_A": 1.0,
+          "gap": 6.579451151815973,
+          "k": 2,
+          "n": 100,
+          "n_parsed": 91,
+          "p_table_T": 0.9999172179010903,
+          "states": [
+            1,
+            1,
+            1,
+            -1
+          ],
+          "wording": 4
+        },
+        {
+          "examples_unparsed": [
+            "Based on the current states of the 4 players visible to",
+            "- Current state of the 4 players visible to Player "
+          ],
+          "freq_A": 1.0,
+          "gap": 11.730904154928517,
+          "k": 4,
+          "n": 100,
+          "n_parsed": 98,
+          "p_table_T": 0.9999999472886251,
+          "states": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "wording": 4
+        }
+      ],
+      "summary": {
+        "T": 0.7,
+        "max_abs_diff": 0.2733357549058188,
+        "mean_abs_diff": 0.05777683240586286,
+        "n_pairs": 32,
+        "n_same_side": 31,
+        "n_samples": 100,
+        "n_within_0.1": 27,
+        "pearson": 0.9359124137850464,
+        "unparseable_rate": 0.2690625,
+        "wordings": "0,4"
+      }
+    },
+    "qwen1.7b": {
+      "manifest": {
+        "commit": "83056fa8c6a134a0315bec171accb577f98cd78f",
+        "config": {
+          "T": 0.7,
+          "exposure": 4,
+          "max_new_tokens": 12,
+          "model": "qwen1.7b",
+          "n": 100,
+          "out": "results/phase_a/generation_check.json",
+          "threads": 8,
+          "wordings": "0,4"
+        },
+        "hardware": {
+          "cpu_count": 16,
+          "machine": "AMD64",
+          "numpy": "2.3.5",
+          "platform": "Windows-11-10.0.26200-SP0",
+          "python": "3.12.10",
+          "scipy": "1.17.0",
+          "torch": "2.13.0+cpu",
+          "torch_threads": 8,
+          "transformers": "4.56.0"
+        },
+        "seeds": [
+          0
+        ],
+        "timestamp": "2026-09-23T13:58:29+00:00"
+      },
+      "rows": [
+        {
+          "examples_unparsed": [],
+          "freq_A": 0.01,
+          "gap": -1.2500000000000855,
+          "k": -4,
+          "n": 100,
+          "n_parsed": 100,
+          "p_table_T": 0.143598968748445,
+          "states": [
+            -1,
+            -1,
+            -1,
+            -1
+          ],
+          "wording": 0
+        },
+        {
+          "examples_unparsed": [],
+          "freq_A": 0.35,
+          "gap": -0.7500000000000295,
+          "k": -2,
+          "n": 100,
+          "n_parsed": 100,
+          "p_table_T": 0.2551315043313086,
+          "states": [
+            -1,
+            -1,
+            -1,
+            1
+          ],
+          "wording": 0
+        },
+        {
+          "examples_unparsed": [],
+          "freq_A": 0.0,
+          "gap": -8.750000000000007,
+          "k": -2,
+          "n": 100,
+          "n_parsed": 100,
+          "p_table_T": 3.7266392841865215e-06,
+          "states": [
+            -1,
+            -1,
+            1,
+            -1
+          ],
+          "wording": 0
+        },
+        {
+          "examples_unparsed": [],
+          "freq_A": 1.0,
+          "gap": 7.249999999999951,
+          "k": -2,
+          "n": 100,
+          "n_parsed": 100,
+          "p_table_T": 0.999968235924935,
+          "states": [
+            -1,
+            1,
+            -1,
+            -1
+          ],
+          "wording": 0
+        },
+        {
+          "examples_unparsed": [],
+          "freq_A": 1.0,
+          "gap": 5.249999999999979,
+          "k": -2,
+          "n": 100,
+          "n_parsed": 100,
+          "p_table_T": 0.9994472213630764,
+          "states": [
+            1,
+            -1,
+            -1,
+            -1
+          ],
+          "wording": 0
+        },
+        {
+          "examples_unparsed": [],
+          "freq_A": 1.0,
+          "gap": 7.749999999999959,
+          "k": 0,
+          "n": 100,
+          "n_parsed": 100,
+          "p_table_T": 0.9999844499098454,
+          "states": [
+            -1,
+            -1,
+            1,
+            1
+          ],
+          "wording": 0
+        },
+        {
+          "examples_unparsed": [],
+          "freq_A": 1.0,
+          "gap": 8.24999999999994,
+          "k": 0,
+          "n": 100,
+          "n_parsed": 100,
+          "p_table_T": 0.9999923875226341,
+          "states": [
+            -1,
+            1,
+            -1,
+            1
+          ],
+          "wording": 0
+        },
+        {
+          "examples_unparsed": [
+            "Based on the information provided, Player 1 sees three other"
+          ],
+          "freq_A": 1.0,
+          "gap": 13.999999999999893,
+          "k": 0,
+          "n": 100,
+          "n_parsed": 99,
+          "p_table_T": 0.9999999979388463,
+          "states": [
+            -1,
+            1,
+            1,
+            -1
+          ],
+          "wording": 0
+        },
+        {
+          "examples_unparsed": [
+            "Based on the information provided:\n\n- Player 1 sees "
+          ],
+          "freq_A": 1.0,
+          "gap": 8.999999999999961,
+          "k": 0,
+          "n": 100,
+          "n_parsed": 99,
+          "p_table_T": 0.9999973925699178,
+          "states": [
+            1,
+            -1,
+            -1,
+            1
+          ],
+          "wording": 0
+        },
+        {
+          "examples_unparsed": [],
+          "freq_A": 1.0,
+          "gap": 12.749999999999828,
+          "k": 0,
+          "n": 100,
+          "n_parsed": 100,
+          "p_table_T": 0.9999999877076132,
+          "states": [
+            1,
+            -1,
+            1,
+            -1
+          ],
+          "wording": 0
+        },
+        {
+          "examples_unparsed": [],
+          "freq_A": 1.0,
+          "gap": 12.24999999999994,
+          "k": 0,
+          "n": 100,
+          "n_parsed": 100,
+          "p_table_T": 0.999999974890009,
+          "states": [
+            1,
+            1,
+            -1,
+            -1
+          ],
+          "wording": 0
+        },
+        {
+          "examples_unparsed": [],
+          "freq_A": 1.0,
+          "gap": 8.999999999999948,
+          "k": 2,
+          "n": 100,
+          "n_parsed": 100,
+          "p_table_T": 0.9999973925699178,
+          "states": [
+            -1,
+            1,
+            1,
+            1
+          ],
+          "wording": 0
+        },
+        {
+          "examples_unparsed": [],
+          "freq_A": 1.0,
+          "gap": 8.499999999999968,
+          "k": 2,
+          "n": 100,
+          "n_parsed": 100,
+          "p_table_T": 0.9999946737464687,
+          "states": [
+            1,
+            -1,
+            1,
+            1
+          ],
+          "wording": 0
+        },
+        {
+          "examples_unparsed": [
+            "Based on the information provided:\n\n- Player 1 sees ",
+            "Based on the information provided:\n\n- Player 1 sees "
+          ],
+          "freq_A": 1.0,
+          "gap": 21.499999999999627,
+          "k": 2,
+          "n": 100,
+          "n_parsed": 98,
+          "p_table_T": 0.9999999999999543,
+          "states": [
+            1,
+            1,
+            -1,
+            1
+          ],
+          "wording": 0
+        },
+        {
+          "examples_unparsed": [],
+          "freq_A": 1.0,
+          "gap": 10.499999999999972,
+          "k": 2,
+          "n": 100,
+          "n_parsed": 100,
+          "p_table_T": 0.999999694097773,
+          "states": [
+            1,
+            1,
+            1,
+            -1
+          ],
+          "wording": 0
+        },
+        {
+          "examples_unparsed": [],
+          "freq_A": 1.0,
+          "gap": 13.749999999999886,
+          "k": 4,
+          "n": 100,
+          "n_parsed": 100,
+          "p_table_T": 0.9999999970541167,
+          "states": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "wording": 0
+        },
+        {
+          "examples_unparsed": [],
+          "freq_A": 0.0,
+          "gap": -25.249999990762664,
+          "k": -4,
+          "n": 100,
+          "n_parsed": 100,
+          "p_table_T": 2.1596214024123033e-16,
+          "states": [
+            -1,
+            -1,
+            -1,
+            -1
+          ],
+          "wording": 4
+        },
+        {
+          "examples_unparsed": [],
+          "freq_A": 0.0,
+          "gap": -13.49999999996295,
+          "k": -2,
+          "n": 100,
+          "n_parsed": 100,
+          "p_table_T": 4.2103742830279474e-09,
+          "states": [
+            -1,
+            -1,
+            -1,
+            1
+          ],
+          "wording": 4
+        },
+        {
+          "examples_unparsed": [],
+          "freq_A": 0.0,
+          "gap": -19.249999999641943,
+          "k": -2,
+          "n": 100,
+          "n_parsed": 100,
+          "p_table_T": 1.139991853626172e-12,
+          "states": [
+            -1,
+            -1,
+            1,
+            -1
+          ],
+          "wording": 4
+        },
+        {
+          "examples_unparsed": [],
+          "freq_A": 0.0,
+          "gap": -17.249999996149896,
+          "k": -2,
+          "n": 100,
+          "n_parsed": 100,
+          "p_table_T": 1.9849205448559817e-11,
+          "states": [
+            -1,
+            1,
+            -1,
+            -1
+          ],
+          "wording": 4
+        },
+        {
+          "examples_unparsed": [],
+          "freq_A": 1.0,
+          "gap": 9.74999999999935,
+          "k": -2,
+          "n": 100,
+          "n_parsed": 100,
+          "p_table_T": 0.9999991069045024,
+          "states": [
+            1,
+            -1,
+            -1,
+            -1
+          ],
+          "wording": 4
+        },
+        {
+          "examples_unparsed": [],
+          "freq_A": 0.0,
+          "gap": -8.49999999998029,
+          "k": 0,
+          "n": 100,
+          "n_parsed": 100,
+          "p_table_T": 5.326253531494472e-06,
+          "states": [
+            -1,
+            -1,
+            1,
+            1
+          ],
+          "wording": 4
+        },
+        {
+          "examples_unparsed": [],
+          "freq_A": 0.0,
+          "gap": -8.499999999148615,
+          "k": 0,
+          "n": 100,
+          "n_parsed": 100,
+          "p_table_T": 5.32625353782259e-06,
+          "states": [
+            -1,
+            1,
+            -1,
+            1
+          ],
+          "wording": 4
+        },
+        {
+          "examples_unparsed": [],
+          "freq_A": 0.0,
+          "gap": -8.999999999946661,
+          "k": 0,
+          "n": 100,
+          "n_parsed": 100,
+          "p_table_T": 2.6074300823146824e-06,
+          "states": [
+            -1,
+            1,
+            1,
+            -1
+          ],
+          "wording": 4
+        },
+        {
+          "examples_unparsed": [],
+          "freq_A": 1.0,
+          "gap": 11.499999999678636,
+          "k": 0,
+          "n": 100,
+          "n_parsed": 100,
+          "p_table_T": 0.9999999266901971,
+          "states": [
+            1,
+            -1,
+            -1,
+            1
+          ],
+          "wording": 4
+        },
+        {
+          "examples_unparsed": [],
+          "freq_A": 1.0,
+          "gap": 13.499999998391175,
+          "k": 0,
+          "n": 100,
+          "n_parsed": 100,
+          "p_table_T": 0.9999999957896257,
+          "states": [
+            1,
+            -1,
+            1,
+            -1
+          ],
+          "wording": 4
+        },
+        {
+          "examples_unparsed": [],
+          "freq_A": 1.0,
+          "gap": 14.999999999936326,
+          "k": 0,
+          "n": 100,
+          "n_parsed": 100,
+          "p_table_T": 0.9999999995060425,
+          "states": [
+            1,
+            1,
+            -1,
+            -1
+          ],
+          "wording": 4
+        },
+        {
+          "examples_unparsed": [],
+          "freq_A": 0.0,
+          "gap": -11.74999999999522,
+          "k": 2,
+          "n": 100,
+          "n_parsed": 100,
+          "p_table_T": 5.12928568579296e-08,
+          "states": [
+            -1,
+            1,
+            1,
+            1
+          ],
+          "wording": 4
+        },
+        {
+          "examples_unparsed": [],
+          "freq_A": 1.0,
+          "gap": 18.499999999979455,
+          "k": 2,
+          "n": 100,
+          "n_parsed": 100,
+          "p_table_T": 0.9999999999966718,
+          "states": [
+            1,
+            -1,
+            1,
+            1
+          ],
+          "wording": 4
+        },
+        {
+          "examples_unparsed": [],
+          "freq_A": 1.0,
+          "gap": 27.24999999992943,
+          "k": 2,
+          "n": 100,
+          "n_parsed": 100,
+          "p_table_T": 1.0,
+          "states": [
+            1,
+            1,
+            -1,
+            1
+          ],
+          "wording": 4
+        },
+        {
+          "examples_unparsed": [],
+          "freq_A": 1.0,
+          "gap": 19.49999999998041,
+          "k": 2,
+          "n": 100,
+          "n_parsed": 100,
+          "p_table_T": 0.9999999999992024,
+          "states": [
+            1,
+            1,
+            1,
+            -1
+          ],
+          "wording": 4
+        },
+        {
+          "examples_unparsed": [],
+          "freq_A": 1.0,
+          "gap": 28.249999999890722,
+          "k": 4,
+          "n": 100,
+          "n_parsed": 100,
+          "p_table_T": 1.0,
+          "states": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "wording": 4
+        }
+      ],
+      "summary": {
+        "T": 0.7,
+        "max_abs_diff": 0.13359896874844499,
+        "mean_abs_diff": 0.007159502260513849,
+        "n_pairs": 32,
+        "n_same_side": 32,
+        "n_samples": 100,
+        "n_within_0.1": 31,
+        "pearson": 0.9980562822589903,
+        "unparseable_rate": 0.0012499999999999734,
+        "wordings": "0,4"
+      }
+    }
+  }
+}

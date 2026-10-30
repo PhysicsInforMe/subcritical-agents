@@ -1,0 +1,50 @@
+{
+  "manifest": {
+    "commit": "db077509de2658b94e2310146343900d4f8b1c43",
+    "config": {
+      "results": "results/phase_a",
+      "script": "phase_a_covariates"
+    },
+    "hardware": {
+      "cpu_count": 16,
+      "machine": "AMD64",
+      "numpy": "2.3.5",
+      "platform": "Windows-11-10.0.26200-SP0",
+      "python": "3.12.10",
+      "scipy": "1.17.0",
+      "torch": "2.13.0+cpu",
+      "torch_threads": 8,
+      "transformers": "4.56.0"
+    },
+    "seeds": [],
+    "timestamp": "2026-10-30T10:14:15+00:00",
+    "tree": {
+      "diff_sha1": "2d77ba960ac15ba4135c7bc4ec91fecd447c0154",
+      "dirty": true
+    }
+  },
+  "qwen0.6b|J": {
+    "p_nll": 0.22345209390540144,
+    "p_posix": 0.053685321957744885,
+    "wording_var_base": 0.08091962588338164,
+    "wording_var_cov": 0.1047816926740248
+  },
+  "qwen0.6b|h": {
+    "p_nll": 0.3498755556168256,
+    "p_posix": 0.28317306743915027,
+    "wording_var_base": 0.1693757758713539,
+    "wording_var_cov": 0.16661353718916624
+  },
+  "qwen1.7b|J": {
+    "p_nll": 0.03062045715405535,
+    "p_posix": 0.13234878045068696,
+    "wording_var_base": 0.36195114054128324,
+    "wording_var_cov": 0.1947286646646661
+  },
+  "qwen1.7b|h": {
+    "p_nll": 0.8772363009549746,
+    "p_posix": 0.4046551630566645,
+    "wording_var_base": 2.1369615351882003,
+    "wording_var_cov": 2.0203967334986923
+  }
+}

@@ -1,0 +1,20 @@
+# Five NEW wordings (w5-w9) written on 2026-09-23 for the answer to R3-01/R3-05
+# and R2-02: independent clusters with a different structure from the five
+# original paraphrases (configs/phase_a_formulations.yaml). What varies
+# against the originals: the person (two wordings address the agent as "You
+# are Player 1"), the order in which the two labels are named (three name B
+# before A), the position of the instruction (three put it first), the verb
+# (decide / give / which state should), and the framing. What stays: the
+# slots {a} {b} {n_peers} {peers} {memory}, the label tokens A and B (the
+# tabulation reads their logits), the JSON answer with the key "state", the
+# memory sentence rendered by the code ("In the previous rounds Player 1
+# held, oldest first: ..."), which is why the first-person wordings still
+# name the agent "Player 1". Hypotheses and decision rules for the cells
+# tabulated with these wordings are in the project log (not included) (declared before the data).
+formats: [comma, lines]
+wordings:
+  - "Reply as JSON with the single key \"state\". You are Player 1 in a game where every player is in state {b} or in state {a}. You can see {n_peers} other players and their states are: {peers}.{memory} Decide the state you take now."
+  - "Return a JSON object with one key, \"state\", giving the state of Player 1. The game has two states, {a} and {b}. {n_peers} other players are visible to Player 1 and they hold: {peers}.{memory} Report the state of Player 1 now."
+  - "There are two possible states, {b} and {a}. Player 1 observes {n_peers} players whose states are: {peers}.{memory} Which state should Player 1 hold now? Answer as JSON with the key \"state\"."
+  - "You are Player 1, one of many players, and each player holds state {a} or state {b}. Right now you see {n_peers} of the others and their states are: {peers}.{memory} Give your state now as JSON with the single key \"state\"."
+  - "Output only a JSON object with the key \"state\". In this round the players hold either {b} or {a}. Player 1 sees {n_peers} other players, in the states: {peers}.{memory} The state Player 1 is in now goes in the JSON."

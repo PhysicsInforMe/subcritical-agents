@@ -1,0 +1,126 @@
+{
+  "J_gap_sector_A_one_ordering": 0.12800286886405923,
+  "manifest": {
+    "commit": "add7e2f87867607daa167a662a04b7766caeb2ad",
+    "config": {
+      "dtype": "bfloat16",
+      "model": "HuggingFaceTB/SmolLM2-1.7B-Instruct",
+      "wording": "Player 1 is one of several players. Each player holds a state, either {a} or {b}. Player 1 sees {n_peers} other players and their states are: {peers}.{memory} Answer with the state Player 1 should hold now, as JSON with a single key \"state\"."
+    },
+    "hardware": {
+      "cpu_count": 16,
+      "machine": "AMD64",
+      "numpy": "2.3.5",
+      "platform": "Windows-11-10.0.26200-SP0",
+      "python": "3.12.10",
+      "scipy": "1.17.0",
+      "torch": "2.13.0+cpu",
+      "torch_threads": 8,
+      "transformers": "4.56.0"
+    },
+    "revision": "31b70e2e869a7173562077fd711b654946d38674",
+    "seconds": 124.47894978523254,
+    "seeds": [
+      0
+    ],
+    "timestamp": "2026-09-14T14:26:29+00:00",
+    "variant_ids": {
+      "A": [
+        49,
+        81,
+        253,
+        330
+      ],
+      "B": [
+        50,
+        82,
+        278,
+        389
+      ]
+    }
+  },
+  "min_label_mass": 0.9865832566697627,
+  "rows": [
+    {
+      "gap_plus_minus_minus": -0.2503582630807615,
+      "k": -4,
+      "label_mass": 0.9892105283457977,
+      "n_tokens": 95,
+      "p_plus": 0.43773532032461365,
+      "sector_plus": "A"
+    },
+    {
+      "gap_plus_minus_minus": 0.7488909423215031,
+      "k": -2,
+      "label_mass": 0.9872675170336992,
+      "n_tokens": 95,
+      "p_plus": 0.6789369930525077,
+      "sector_plus": "A"
+    },
+    {
+      "gap_plus_minus_minus": 0.998450033624875,
+      "k": 0,
+      "label_mass": 0.9865832566697627,
+      "n_tokens": 95,
+      "p_plus": 0.7307537276283512,
+      "sector_plus": "A"
+    },
+    {
+      "gap_plus_minus_minus": 1.123292371708958,
+      "k": 2,
+      "label_mass": 0.9926383839195028,
+      "n_tokens": 95,
+      "p_plus": 0.7545989067868454,
+      "sector_plus": "A"
+    },
+    {
+      "gap_plus_minus_minus": 2.122498399506696,
+      "k": 4,
+      "label_mass": 0.9880416190895622,
+      "n_tokens": 95,
+      "p_plus": 0.8930707495468272,
+      "sector_plus": "A"
+    },
+    {
+      "gap_plus_minus_minus": -2.122498399506696,
+      "k": -4,
+      "label_mass": 0.9880416190895622,
+      "n_tokens": 95,
+      "p_plus": 0.10692925045317286,
+      "sector_plus": "B"
+    },
+    {
+      "gap_plus_minus_minus": -0.2498471097995747,
+      "k": -2,
+      "label_mass": 0.9911849940530404,
+      "n_tokens": 95,
+      "p_plus": 0.4378611309611049,
+      "sector_plus": "B"
+    },
+    {
+      "gap_plus_minus_minus": 0.000139919302279079,
+      "k": 0,
+      "label_mass": 0.9902824780918658,
+      "n_tokens": 95,
+      "p_plus": 0.5000349798255127,
+      "sector_plus": "B"
+    },
+    {
+      "gap_plus_minus_minus": 0.5000332245645116,
+      "k": 2,
+      "label_mass": 0.9938730216557004,
+      "n_tokens": 95,
+      "p_plus": 0.6224671390660829,
+      "sector_plus": "B"
+    },
+    {
+      "gap_plus_minus_minus": 0.2503582630807615,
+      "k": 4,
+      "label_mass": 0.9892105283457977,
+      "n_tokens": 95,
+      "p_plus": 0.5622646796753863,
+      "sector_plus": "B"
+    }
+  ],
+  "verdict": "segue il protocollo"
+}

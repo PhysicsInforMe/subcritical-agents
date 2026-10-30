@@ -1,0 +1,11 @@
+# Revision R2-05: same five wordings with an explicit decisional instruction ("Choose the state Player 1 will hold in the next round")
+# in place of the ambiguous or descriptive one. Generated on 2026-09-23.
+formats:
+- comma
+- lines
+wordings:
+- 'Player 1 is one of several players. Each player holds a state, either {a} or {b}. Player 1 sees {n_peers} other players and their states are: {peers}.{memory} Choose the state Player 1 will hold in the next round, and answer as JSON with a single key "state".'
+- 'In this game every player has a state, {a} or {b}. Player 1 can see the states of {n_peers} other players: {peers}.{memory} Choose the state Player 1 will take in the next round, and reply in JSON with the key "state".'
+- 'Player 1 takes part in a game where each participant holds one of two states, {a} or {b}. The states of the {n_peers} players Player 1 can see are: {peers}.{memory} Choose the state Player 1 will adopt in the next round, and give it as a JSON object with the single key "state".'
+- 'Each player in the game is in state {a} or in state {b}. Player 1 observes {n_peers} other players with these states: {peers}.{memory} Choose the state Player 1 will be in during the next round, as JSON with one key called "state".'
+- 'Consider Player 1 among a group of players whose state is either {a} or {b}. The current states of the {n_peers} players visible to Player 1 read: {peers}.{memory} Choose the state Player 1 will hold in the next round and output it as JSON containing only the key "state".'

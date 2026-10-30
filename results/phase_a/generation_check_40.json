@@ -1,0 +1,623 @@
+{
+  "models": {
+    "qwen0.6b": {
+      "manifest": {
+        "commit": "83056fa8c6a134a0315bec171accb577f98cd78f",
+        "config": {
+          "T": 0.7,
+          "exposure": 4,
+          "max_new_tokens": 40,
+          "model": "qwen0.6b",
+          "n": 100,
+          "out": "results\\phase_a\\generation_check_40.json",
+          "threads": 8,
+          "wordings": "0,4"
+        },
+        "hardware": {
+          "cpu_count": 16,
+          "machine": "AMD64",
+          "numpy": "2.3.5",
+          "platform": "Windows-11-10.0.26200-SP0",
+          "python": "3.12.10",
+          "scipy": "1.17.0",
+          "torch": "2.13.0+cpu",
+          "torch_threads": 8,
+          "transformers": "4.56.0"
+        },
+        "seeds": [
+          0
+        ],
+        "timestamp": "2026-09-23T14:27:34+00:00"
+      },
+      "rows": [
+        {
+          "examples_unparsed": [],
+          "freq_A": 0.84,
+          "gap": 1.773927585445349,
+          "k": -4,
+          "n": 100,
+          "n_parsed": 100,
+          "p_table_T": 0.9265036516866055,
+          "states": [
+            -1,
+            -1,
+            -1,
+            -1
+          ],
+          "wording": 0
+        },
+        {
+          "examples_unparsed": [],
+          "freq_A": 0.66,
+          "gap": 0.7234050844051689,
+          "k": -2,
+          "n": 100,
+          "n_parsed": 100,
+          "p_table_T": 0.7375814616596652,
+          "states": [
+            -1,
+            -1,
+            -1,
+            1
+          ],
+          "wording": 0
+        },
+        {
+          "examples_unparsed": [],
+          "freq_A": 0.56,
+          "gap": 0.23748100528772453,
+          "k": -2,
+          "n": 100,
+          "n_parsed": 100,
+          "p_table_T": 0.5840104116715242,
+          "states": [
+            -1,
+            -1,
+            1,
+            -1
+          ],
+          "wording": 0
+        },
+        {
+          "examples_unparsed": [],
+          "freq_A": 0.82,
+          "gap": 0.9354369035098136,
+          "k": -2,
+          "n": 100,
+          "n_parsed": 100,
+          "p_table_T": 0.7918871532876817,
+          "states": [
+            -1,
+            1,
+            -1,
+            -1
+          ],
+          "wording": 0
+        },
+        {
+          "examples_unparsed": [],
+          "freq_A": 0.59,
+          "gap": 0.36637192858194,
+          "k": -2,
+          "n": 100,
+          "n_parsed": 100,
+          "p_table_T": 0.6279397618104785,
+          "states": [
+            1,
+            -1,
+            -1,
+            -1
+          ],
+          "wording": 0
+        },
+        {
+          "examples_unparsed": [],
+          "freq_A": 0.56,
+          "gap": 0.20819119534765385,
+          "k": 0,
+          "n": 100,
+          "n_parsed": 100,
+          "p_table_T": 0.5738107137274648,
+          "states": [
+            -1,
+            -1,
+            1,
+            1
+          ],
+          "wording": 0
+        },
+        {
+          "examples_unparsed": [],
+          "freq_A": 0.63,
+          "gap": 0.4148739805833882,
+          "k": 0,
+          "n": 100,
+          "n_parsed": 100,
+          "p_table_T": 0.6439791641844841,
+          "states": [
+            -1,
+            1,
+            -1,
+            1
+          ],
+          "wording": 0
+        },
+        {
+          "examples_unparsed": [],
+          "freq_A": 0.79,
+          "gap": 0.636642525715714,
+          "k": 0,
+          "n": 100,
+          "n_parsed": 100,
+          "p_table_T": 0.7128956509642271,
+          "states": [
+            -1,
+            1,
+            1,
+            -1
+          ],
+          "wording": 0
+        },
+        {
+          "examples_unparsed": [],
+          "freq_A": 0.74,
+          "gap": 0.5413226110186193,
+          "k": 0,
+          "n": 100,
+          "n_parsed": 100,
+          "p_table_T": 0.6842382097221271,
+          "states": [
+            1,
+            -1,
+            -1,
+            1
+          ],
+          "wording": 0
+        },
+        {
+          "examples_unparsed": [],
+          "freq_A": 0.58,
+          "gap": 0.3577030881057749,
+          "k": 0,
+          "n": 100,
+          "n_parsed": 100,
+          "p_table_T": 0.6250419024572654,
+          "states": [
+            1,
+            -1,
+            1,
+            -1
+          ],
+          "wording": 0
+        },
+        {
+          "examples_unparsed": [],
+          "freq_A": 0.82,
+          "gap": 0.7138575725955374,
+          "k": 0,
+          "n": 100,
+          "n_parsed": 100,
+          "p_table_T": 0.734932964526288,
+          "states": [
+            1,
+            1,
+            -1,
+            -1
+          ],
+          "wording": 0
+        },
+        {
+          "examples_unparsed": [],
+          "freq_A": 0.7,
+          "gap": 0.3285017866733222,
+          "k": 2,
+          "n": 100,
+          "n_parsed": 100,
+          "p_table_T": 0.6152152848304704,
+          "states": [
+            -1,
+            1,
+            1,
+            1
+          ],
+          "wording": 0
+        },
+        {
+          "examples_unparsed": [],
+          "freq_A": 0.69,
+          "gap": 0.29814646921911625,
+          "k": 2,
+          "n": 100,
+          "n_parsed": 100,
+          "p_table_T": 0.6048998254756401,
+          "states": [
+            1,
+            -1,
+            1,
+            1
+          ],
+          "wording": 0
+        },
+        {
+          "examples_unparsed": [],
+          "freq_A": 0.85,
+          "gap": 0.9444740706539738,
+          "k": 2,
+          "n": 100,
+          "n_parsed": 100,
+          "p_table_T": 0.7940067681804843,
+          "states": [
+            1,
+            1,
+            -1,
+            1
+          ],
+          "wording": 0
+        },
+        {
+          "examples_unparsed": [],
+          "freq_A": 0.9,
+          "gap": 0.7848876011347494,
+          "k": 2,
+          "n": 100,
+          "n_parsed": 100,
+          "p_table_T": 0.7542238419741261,
+          "states": [
+            1,
+            1,
+            1,
+            -1
+          ],
+          "wording": 0
+        },
+        {
+          "examples_unparsed": [],
+          "freq_A": 1.0,
+          "gap": 2.4837741537569475,
+          "k": 4,
+          "n": 100,
+          "n_parsed": 100,
+          "p_table_T": 0.9720298540048802,
+          "states": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "wording": 0
+        },
+        {
+          "examples_unparsed": [
+            "Based on the current state of the 4 visible players being **B, B, B, B**, we can conclude that Player 1's state is **B**. \n\nThe output in JSON",
+            "Based on the current states of the 4 players visible to Player 1, which are all **B**, we can infer that Player 1's state is also **B**.\n\nHere is the",
+            "- The state of the visible players are: **B, B, B, B**.\n\n- Player 1’s state is **B**.\n\n**Output:**\n\n```json\n{\n  \""
+          ],
+          "freq_A": 0.265625,
+          "gap": -2.4494188309087317,
+          "k": -4,
+          "n": 100,
+          "n_parsed": 64,
+          "p_table_T": 0.02933586286796773,
+          "states": [
+            -1,
+            -1,
+            -1,
+            -1
+          ],
+          "wording": 4
+        },
+        {
+          "examples_unparsed": [
+            "If Player 1 is among the group of players whose visible state is **B, B, B, A**, then:\n\n- Player 1's state is **A**.\n\n---\n\n**JSON output",
+            "Based on the current states of the 4 players visible to Player 1, which are: **B, B, B, A**\n\nPlayer 1 is **A**.\n\nSo, the JSON",
+            "Based on the current state of the visible players (B, B, B, A), Player 1 must be **A** to align with the visible state.\n\n```json\n{\n  \"state"
+          ],
+          "freq_A": 0.8955223880597015,
+          "gap": 0.8257568080753579,
+          "k": -2,
+          "n": 100,
+          "n_parsed": 67,
+          "p_table_T": 0.7648853315064816,
+          "states": [
+            -1,
+            -1,
+            -1,
+            1
+          ],
+          "wording": 4
+        },
+        {
+          "examples_unparsed": [
+            "The current states of the 4 players visible to Player 1 are: **B, B, A, B**.  \n\nSince Player 1 is among the group, and the state of the",
+            "Based on the visible state of the players: `B, B, A, B`, we can conclude that **Player 1's state is A**.  \n\n**Final output in JSON:**\n\n",
+            "The current states of the 4 players visible to Player 1 are: **B, B, A, B**.\n\nSince Player 1 is among the group of players, and the visible players"
+          ],
+          "freq_A": 0.7547169811320755,
+          "gap": -0.4282122818543259,
+          "k": -2,
+          "n": 100,
+          "n_parsed": 53,
+          "p_table_T": 0.3516642450941812,
+          "states": [
+            -1,
+            -1,
+            1,
+            -1
+          ],
+          "wording": 4
+        },
+        {
+          "examples_unparsed": [
+            "- The current states of the 4 players visible to Player 1 are: `B, A, B, B`.\n- Player 1 is among the group.\n\nSince the state of Player ",
+            "Based on the given visible states: **B, A, B, B**, Player 1's state is **\"A\"**.\n\n**JSON output:**\n\n```json\n{\n  \"state",
+            "Based on the current state of the visible players: **B, A, B, B**, and Player 1 is among them, the state of Player 1 is:\n\n```json\n{\n "
+          ],
+          "freq_A": 0.9743589743589743,
+          "gap": 1.2401388938849194,
+          "k": -2,
+          "n": 100,
+          "n_parsed": 39,
+          "p_table_T": 0.854659886642995,
+          "states": [
+            -1,
+            1,
+            -1,
+            -1
+          ],
+          "wording": 4
+        },
+        {
+          "examples_unparsed": [
+            "Based on the state of the visible players: **A, B, B, B**, Player 1 must be in **state A**. \n\nSo the final output is:\n\n```json\n{\"",
+            "To determine the state of **Player 1**, we need to analyze the visible states of the other 4 players:\n\n- Player 1's state is **not** visible.\n\nTherefore, **the",
+            "Based on the current states of the 4 players visible to Player 1, which are: **A, B, B, B**, we can conclude that **Player 1 is in state A"
+          ],
+          "freq_A": 0.9433962264150944,
+          "gap": 1.9687885698494518,
+          "k": -2,
+          "n": 100,
+          "n_parsed": 53,
+          "p_table_T": 0.9433505193139329,
+          "states": [
+            1,
+            -1,
+            -1,
+            -1
+          ],
+          "wording": 4
+        },
+        {
+          "examples_unparsed": [
+            "Based on the given state of the 4 players visible to Player 1, which is: **B, B, A, A**, and assuming that all players are part of a group, we",
+            "If Player 1 is among the four visible players whose current state is `B, B, A, A`, and assuming that the state of Player 1 is determined by the majority of the visible",
+            "Based on the current states of the players visible to Player 1: **B, B, A, A**, we can deduce:\n\n- Player 1's state is **A**.\n\nThus"
+          ],
+          "freq_A": 0.8979591836734694,
+          "gap": 1.6153327337531238,
+          "k": 0,
+          "n": 100,
+          "n_parsed": 49,
+          "p_table_T": 0.9095060120390277,
+          "states": [
+            -1,
+            -1,
+            1,
+            1
+          ],
+          "wording": 4
+        },
+        {
+          "examples_unparsed": [
+            "- The current states of the 4 players visible to Player 1 are: **B, A, B, A**.\n- Since Player 1 is among them, he must be the **",
+            "Based on the state of the 4 players visible to Player 1, which are \"B\", \"A\", \"B\", \"A\", the state of **Player 1** is:\n\n```",
+            "Based on the visible states of the 4 players: **B, A, B, A**, and since **Player 1** is among them, we determine that **Player 1's state"
+          ],
+          "freq_A": 0.7575757575757576,
+          "gap": 1.5095044684042,
+          "k": 0,
+          "n": 100,
+          "n_parsed": 33,
+          "p_table_T": 0.8962685698733208,
+          "states": [
+            -1,
+            1,
+            -1,
+            1
+          ],
+          "wording": 4
+        },
+        {
+          "examples_unparsed": [
+            "To determine the state of **Player 1**, we analyze the state of the visible players:\n\n- Player 1's state is **A**, **B**, **A**, **B**.\n\n-",
+            "Based on the current states of the 4 players visible to Player 1, which are: **B, A, A, B**, Player 1's state is **B**. \n\nSo",
+            "The current states of the 4 players visible to Player 1 are: `B, A, A, B`.\n\nSince Player 1 is one of the players in the group, and the state"
+          ],
+          "freq_A": 0.8979591836734694,
+          "gap": 1.9585988586184935,
+          "k": 0,
+          "n": 100,
+          "n_parsed": 49,
+          "p_table_T": 0.9425675638696689,
+          "states": [
+            -1,
+            1,
+            1,
+            -1
+          ],
+          "wording": 4
+        },
+        {
+          "examples_unparsed": [
+            "Based on the visible state of the players: A, B, B, A, **Player 1's state is A**. \n\n### Output in JSON:\n```json\n{\n  \"state",
+            "Based on the current states of the visible players: **A, B, B, A**, Player 1 must be holding the **A** state. Here's the JSON output:\n\n```json\n",
+            "Based on the current state of the 4 players visible to Player 1, which is: **A, B, B, A**, we can deduce that **Player 1 is in state"
+          ],
+          "freq_A": 1.0,
+          "gap": 3.6566339189944674,
+          "k": 0,
+          "n": 100,
+          "n_parsed": 58,
+          "p_table_T": 0.9946418435250436,
+          "states": [
+            1,
+            -1,
+            -1,
+            1
+          ],
+          "wording": 4
+        },
+        {
+          "examples_unparsed": [
+            "Based on the visible state of the players: **A, B, A, B**, Player 1's state is **A**. \n\nThe final JSON output is:\n\n```json\n{\n ",
+            "Given the current state of the 4 players visible to Player 1: **A, B, A, B**, we can determine that:\n\n- Player 1 is **A**.\n\nSo the",
+            "- The current states of the 4 players visible to Player 1 are: A, B, A, B.\n- Player 1 is among them, and we are to determine what state he"
+          ],
+          "freq_A": 0.9850746268656716,
+          "gap": 3.020448216010434,
+          "k": 0,
+          "n": 100,
+          "n_parsed": 67,
+          "p_table_T": 0.98680879558909,
+          "states": [
+            1,
+            -1,
+            1,
+            -1
+          ],
+          "wording": 4
+        },
+        {
+          "examples_unparsed": [
+            "Based on the current states of the 4 players visible to Player 1: **A, A, B, B**, we can conclude that:\n\n- Player 1 is **A**.\n\nSo",
+            "The current states of the 4 players visible to Player 1 are: A, A, B, B.\n\nPlayer 1 is among them, and the state of Player 1 is **A",
+            "According to the input \"A, A, B, B\", Player 1's state is: **A**.  \n\nSo the output in JSON is:\n\n```json\n{\n  \"state\":"
+          ],
+          "freq_A": 1.0,
+          "gap": 5.009752826761276,
+          "k": 0,
+          "n": 100,
+          "n_parsed": 89,
+          "p_table_T": 0.9992210541306952,
+          "states": [
+            1,
+            1,
+            -1,
+            -1
+          ],
+          "wording": 4
+        },
+        {
+          "examples_unparsed": [
+            "Based on the states of the visible players (B, A, A, A), Player 1 must hold the state \"A\". Therefore, the output in JSON is:\n\n```json\n{\n ",
+            "Based on the state of the 4 players visible to Player 1, which are `B, A, A, A`, Player 1 must hold the `A` state.\n\n```json\n",
+            "The current states of the 4 visible players are `B, A, A, A`. Since Player 1 is among them, and the state of the players is given, we can infer that"
+          ],
+          "freq_A": 0.8709677419354839,
+          "gap": 2.6193327931457593,
+          "k": 2,
+          "n": 100,
+          "n_parsed": 62,
+          "p_table_T": 0.9768401758055106,
+          "states": [
+            -1,
+            1,
+            1,
+            1
+          ],
+          "wording": 4
+        },
+        {
+          "examples_unparsed": [
+            "- The visible states are: A, B, A, A.\n- Player 1 is among the group. Since Player 1's state is not mentioned, we assume they are not included in",
+            "The current state of the players visible to Player 1 is **A, B, A, A**.\n\nSince Player 1 is among these players, the state of Player 1 is **A",
+            "The current states of the 4 players visible to Player 1 are: A, B, A, A.\n\nPlayer 1's state is **A**.\n\n```json\n{\n  \"state"
+          ],
+          "freq_A": 0.9672131147540983,
+          "gap": 3.2514257634174903,
+          "k": 2,
+          "n": 100,
+          "n_parsed": 61,
+          "p_table_T": 0.9904809346165896,
+          "states": [
+            1,
+            -1,
+            1,
+            1
+          ],
+          "wording": 4
+        },
+        {
+          "examples_unparsed": [
+            "Based on the visible states of the players: `A, A, B, A`, we can determine that **Player 1 has state A**.\n\n### JSON output:\n```json\n{\n ",
+            "Based on the current states of the 4 players visible to Player 1, which are:  \n**A, A, B, A**\n\nPlayer 1’s state is **A**.  \n\n",
+            "Based on the current visible state of the players (A, A, B, A), we can determine that Player 1's state is **A**.\n\n### Final Answer in JSON:\n```json"
+          ],
+          "freq_A": 1.0,
+          "gap": 6.66499431322797,
+          "k": 2,
+          "n": 100,
+          "n_parsed": 83,
+          "p_table_T": 0.9999267398468638,
+          "states": [
+            1,
+            1,
+            -1,
+            1
+          ],
+          "wording": 4
+        },
+        {
+          "examples_unparsed": [
+            "Based on the given states: A, A, A, B, Player 1 is in the **A** state. \n\nSo, the JSON output is:\n\n```json\n{\n  \"state",
+            "The current states of the 4 players visible to Player 1 are: A, A, A, B.\n\nPlayer 1's state is **A**.\n\n```json\n{\n  \"state",
+            "The current states of the visible players are: A, A, A, B. Player 1's state is **A**. \n\nSo the JSON output is:\n\n```json\n{\"state\":"
+          ],
+          "freq_A": 1.0,
+          "gap": 6.579451151815973,
+          "k": 2,
+          "n": 100,
+          "n_parsed": 95,
+          "p_table_T": 0.9999172179010903,
+          "states": [
+            1,
+            1,
+            1,
+            -1
+          ],
+          "wording": 4
+        },
+        {
+          "examples_unparsed": [
+            "Based on the current states of the 4 players visible to Player 1, which are all **A**, Player 1's state is also **A**. Therefore, the final JSON output is",
+            "- Current state of the 4 players visible to Player 1: **A, A, A, A**\n\n- Player 1's state is: **A**.\n\nSo, the JSON output"
+          ],
+          "freq_A": 1.0,
+          "gap": 11.730904154928517,
+          "k": 4,
+          "n": 100,
+          "n_parsed": 98,
+          "p_table_T": 0.9999999472886251,
+          "states": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "wording": 4
+        }
+      ],
+      "summary": {
+        "T": 0.7,
+        "max_abs_diff": 0.4030527360378943,
+        "mean_abs_diff": 0.06769615248108717,
+        "n_pairs": 32,
+        "n_same_side": 31,
+        "n_samples": 100,
+        "n_within_0.1": 25,
+        "pearson": 0.8845154928890238,
+        "unparseable_rate": 0.18125000000000002,
+        "wordings": "0,4"
+      }
+    }
+  }
+}

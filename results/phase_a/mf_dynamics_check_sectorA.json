@@ -1,0 +1,288 @@
+{
+  "N": 200,
+  "exposure": 4,
+  "manifest": {
+    "commit": "7b4334aae79d9c296860822b2c332c597c2cc951",
+    "config": {
+      "N": 200,
+      "exposure": 4,
+      "models": "qwen0.6b,qwen1.7b",
+      "near_critical": null,
+      "out": "results/phase_a/mf_dynamics_check_sectorA.json",
+      "results": "results/phase_a",
+      "rounds": 60,
+      "sector": "A",
+      "seeds": 30
+    },
+    "hardware": {
+      "cpu_count": 16,
+      "machine": "AMD64",
+      "numpy": "2.3.5",
+      "platform": "Windows-11-10.0.26200-SP0",
+      "python": "3.12.10",
+      "scipy": "1.17.0",
+      "torch": "2.13.0+cpu",
+      "torch_threads": 8,
+      "transformers": "4.56.0"
+    },
+    "seeds": [
+      21
+    ],
+    "timestamp": "2026-09-22T12:45:37+00:00"
+  },
+  "models": {
+    "qwen0.6b": {
+      "agreement": "1/10",
+      "rows": [
+        {
+          "abs_m_final": 0.4092166666666666,
+          "abs_m_sd_seeds": 0.03097960489645131,
+          "agree": false,
+          "dF0_sym": 0.03925326740317203,
+          "format": "comma",
+          "frac_seeds_positive": 1.0,
+          "m_signed_final_mean": 0.4092166666666666,
+          "observed": "intermediate",
+          "predicted": "disordered",
+          "wording": 0
+        },
+        {
+          "abs_m_final": 0.5921333333333334,
+          "abs_m_sd_seeds": 0.05459647161349969,
+          "agree": false,
+          "dF0_sym": 0.2394349761086767,
+          "format": "lines",
+          "frac_seeds_positive": 1.0,
+          "m_signed_final_mean": 0.5921333333333334,
+          "observed": "intermediate",
+          "predicted": "disordered",
+          "wording": 0
+        },
+        {
+          "abs_m_final": 0.5046833333333334,
+          "abs_m_sd_seeds": 0.02120892920825846,
+          "agree": false,
+          "dF0_sym": 0.11716530857519558,
+          "format": "comma",
+          "frac_seeds_positive": 1.0,
+          "m_signed_final_mean": 0.5046833333333334,
+          "observed": "intermediate",
+          "predicted": "disordered",
+          "wording": 1
+        },
+        {
+          "abs_m_final": 0.3380833333333334,
+          "abs_m_sd_seeds": 0.017553898934883162,
+          "agree": false,
+          "dF0_sym": -0.03801823993565545,
+          "format": "lines",
+          "frac_seeds_positive": 1.0,
+          "m_signed_final_mean": 0.3380833333333334,
+          "observed": "intermediate",
+          "predicted": "disordered",
+          "wording": 1
+        },
+        {
+          "abs_m_final": 0.9869833333333332,
+          "abs_m_sd_seeds": 0.0034826746888714484,
+          "agree": false,
+          "dF0_sym": 0.6634339643185605,
+          "format": "comma",
+          "frac_seeds_positive": 1.0,
+          "m_signed_final_mean": 0.9869833333333332,
+          "observed": "ordered",
+          "predicted": "disordered",
+          "wording": 2
+        },
+        {
+          "abs_m_final": 0.9982666666666667,
+          "abs_m_sd_seeds": 0.0020667037445691603,
+          "agree": false,
+          "dF0_sym": 0.9829064606631244,
+          "format": "lines",
+          "frac_seeds_positive": 1.0,
+          "m_signed_final_mean": 0.9982666666666667,
+          "observed": "ordered",
+          "predicted": "disordered",
+          "wording": 2
+        },
+        {
+          "abs_m_final": 0.96785,
+          "abs_m_sd_seeds": 0.016646502169607787,
+          "agree": false,
+          "dF0_sym": 0.7921866684906798,
+          "format": "comma",
+          "frac_seeds_positive": 1.0,
+          "m_signed_final_mean": 0.96785,
+          "observed": "ordered",
+          "predicted": "disordered",
+          "wording": 3
+        },
+        {
+          "abs_m_final": 0.9968166666666666,
+          "abs_m_sd_seeds": 0.005707652656791133,
+          "agree": true,
+          "dF0_sym": 1.177142630848227,
+          "format": "lines",
+          "frac_seeds_positive": 1.0,
+          "m_signed_final_mean": 0.9968166666666666,
+          "observed": "ordered",
+          "predicted": "ordered",
+          "wording": 3
+        },
+        {
+          "abs_m_final": 1.0,
+          "abs_m_sd_seeds": 0.0,
+          "agree": false,
+          "dF0_sym": 0.7475255925354363,
+          "format": "comma",
+          "frac_seeds_positive": 1.0,
+          "m_signed_final_mean": 1.0,
+          "observed": "ordered",
+          "predicted": "disordered",
+          "wording": 4
+        },
+        {
+          "abs_m_final": 1.0,
+          "abs_m_sd_seeds": 0.0,
+          "agree": false,
+          "dF0_sym": 0.8494586498697387,
+          "format": "lines",
+          "frac_seeds_positive": 1.0,
+          "m_signed_final_mean": 1.0,
+          "observed": "ordered",
+          "predicted": "disordered",
+          "wording": 4
+        }
+      ]
+    },
+    "qwen1.7b": {
+      "agreement": "7/10",
+      "rows": [
+        {
+          "abs_m_final": 1.0,
+          "abs_m_sd_seeds": 0.0,
+          "agree": false,
+          "dF0_sym": 0.8097983217464355,
+          "format": "comma",
+          "frac_seeds_positive": 1.0,
+          "m_signed_final_mean": 1.0,
+          "observed": "ordered",
+          "predicted": "disordered",
+          "wording": 0
+        },
+        {
+          "abs_m_final": 1.0,
+          "abs_m_sd_seeds": 0.0,
+          "agree": true,
+          "dF0_sym": 1.232288266173609,
+          "format": "lines",
+          "frac_seeds_positive": 1.0,
+          "m_signed_final_mean": 1.0,
+          "observed": "ordered",
+          "predicted": "ordered",
+          "wording": 0
+        },
+        {
+          "abs_m_final": 1.0,
+          "abs_m_sd_seeds": 0.0,
+          "agree": true,
+          "dF0_sym": 1.3713023961803295,
+          "format": "comma",
+          "frac_seeds_positive": 1.0,
+          "m_signed_final_mean": 1.0,
+          "observed": "ordered",
+          "predicted": "ordered",
+          "wording": 1
+        },
+        {
+          "abs_m_final": 1.0,
+          "abs_m_sd_seeds": 0.0,
+          "agree": true,
+          "dF0_sym": 1.012669096837615,
+          "format": "lines",
+          "frac_seeds_positive": 1.0,
+          "m_signed_final_mean": 1.0,
+          "observed": "ordered",
+          "predicted": "ordered",
+          "wording": 1
+        },
+        {
+          "abs_m_final": 0.9986833333333335,
+          "abs_m_sd_seeds": 0.005315045874089725,
+          "agree": false,
+          "dF0_sym": 0.9984419072850415,
+          "format": "comma",
+          "frac_seeds_positive": 1.0,
+          "m_signed_final_mean": 0.9986833333333335,
+          "observed": "ordered",
+          "predicted": "disordered",
+          "wording": 2
+        },
+        {
+          "abs_m_final": 1.0,
+          "abs_m_sd_seeds": 0.0,
+          "agree": true,
+          "dF0_sym": 1.374525855566966,
+          "format": "lines",
+          "frac_seeds_positive": 1.0,
+          "m_signed_final_mean": 1.0,
+          "observed": "ordered",
+          "predicted": "ordered",
+          "wording": 2
+        },
+        {
+          "abs_m_final": 1.0,
+          "abs_m_sd_seeds": 0.0,
+          "agree": true,
+          "dF0_sym": 1.3761615712498676,
+          "format": "comma",
+          "frac_seeds_positive": 1.0,
+          "m_signed_final_mean": 1.0,
+          "observed": "ordered",
+          "predicted": "ordered",
+          "wording": 3
+        },
+        {
+          "abs_m_final": 1.0,
+          "abs_m_sd_seeds": 0.0,
+          "agree": true,
+          "dF0_sym": 1.1284112751158704,
+          "format": "lines",
+          "frac_seeds_positive": 0.0,
+          "m_signed_final_mean": -1.0,
+          "observed": "ordered",
+          "predicted": "ordered",
+          "wording": 3
+        },
+        {
+          "abs_m_final": 0.5893166666666667,
+          "abs_m_sd_seeds": 0.30754569280176813,
+          "agree": false,
+          "dF0_sym": 1.0000161900758364,
+          "format": "comma",
+          "frac_seeds_positive": 0.5333333333333333,
+          "m_signed_final_mean": 0.14358333333333334,
+          "observed": "intermediate",
+          "predicted": "ordered",
+          "wording": 4
+        },
+        {
+          "abs_m_final": 1.0,
+          "abs_m_sd_seeds": 0.0,
+          "agree": true,
+          "dF0_sym": 1.1697701849727737,
+          "format": "lines",
+          "frac_seeds_positive": 1.0,
+          "m_signed_final_mean": 1.0,
+          "observed": "ordered",
+          "predicted": "ordered",
+          "wording": 4
+        }
+      ]
+    }
+  },
+  "rounds": 60,
+  "sector": "A",
+  "seeds": 30
+}
