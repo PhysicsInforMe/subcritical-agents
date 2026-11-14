@@ -1,6 +1,6 @@
 # How much do LLM agents actually couple?
 
-Paper: `paper/submitted_article.pdf`, on alphaXiv at
+Paper: `paper/submitted_article_v2.pdf`, on alphaXiv at
 <https://www.alphaxiv.org/abs/2611.llm-agents-coupling-mean-field-policies>.
 
 A CPU-only study of how strongly small open-weight language-model agents
@@ -23,8 +23,11 @@ coupling, the presentation of the peers (list against count) does in the
 larger model; the linear criterion used in earlier work overestimates order,
 and the paper decomposes the gap exactly at four peers (saturation, shape of
 the response, label bias, dispersion between orderings). Every finding has a
-rule written before the data and a replication on five wordings written
-after the first analysis; every rule and its outcome is in the appendix.
+rule written before the data and is judged on ten wordings, five of them
+written after the first analysis; taken alone, those five confirm the memory
+result in both models and the exposure result in the smaller model, and are
+inconclusive for exposure in the larger one. Every rule and its outcome is
+in the appendix.
 
 ## Layout
 
@@ -43,7 +46,7 @@ after the first analysis; every rule and its outcome is in the appendix.
   files, the analysis outputs, and the launch scripts of the later cells.
 - `tests/` unit tests of the physical measures against exact values (2D
   Ising, voter model, synthetic regressions, the mean-field ceiling).
-- `paper/submitted_article.pdf` the paper; `paper/numbers.json` the registry
+- `paper/submitted_article_v2.pdf` the paper; `paper/numbers.json` the registry
   of every number quoted in the text, `paper/tables.md` and `paper/tab_*.tex`
   the generated tables.
 - `figures/paper/` the figures of the paper.
