@@ -1,6 +1,7 @@
 # How much do LLM agents actually couple?
 
-Paper: `paper/submitted_article.pdf` (on alphaXiv; the link will be added here).
+Paper: `paper/submitted_article.pdf`, on alphaXiv at
+<https://www.alphaxiv.org/abs/2611.llm-agents-coupling-mean-field-policies>.
 
 A CPU-only study of how strongly small open-weight language-model agents
 couple to one another, measured from their logits. For two Qwen3 models
@@ -74,5 +75,14 @@ ones that matter to the sections of the paper.
 
 ## Licence and citation
 
-MIT (see `LICENSE`). If you use the code or the tables, please cite the paper;
-the BibTeX entry will be added with the identifier of the paper.
+MIT (see `LICENSE`). If you use the code or the tables, please cite the paper:
+
+```bibtex
+@misc{simeone2026coupling,
+  title     = {How Much Do LLM Agents Actually Couple? Tabulated Policies and a Mean-Field Criterion for the Exposure, Memory and Format Knobs of Small Open-Weight Agents},
+  author    = {Luigi Simeone},
+  year      = {2026},
+  publisher = {alphaXiv},
+  url       = {https://www.alphaxiv.org/abs/2611.llm-agents-coupling-mean-field-policies}
+}
+```
